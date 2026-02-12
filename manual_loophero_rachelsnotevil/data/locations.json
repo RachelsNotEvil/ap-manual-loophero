@@ -1,0 +1,1030 @@
+[
+  {
+    "name": "Manifest Wasteland",
+    "category": [
+      "Tile",
+      "Manifestation"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Kill Omega",
+    "victory": true,
+    "category": [
+      "Boss",
+      "Kill"
+    ],
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+  },
+  {
+    "name": "Place Cemetery",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Cemetery|"
+  },
+  {
+    "name": "Place Grove",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Grove|"
+  },
+  {
+    "name": "Transform Blood Path",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Battle Field| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Place Village",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Village|"
+  },
+  {
+    "name": "Transform Ransacked Village",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Village| AND |Vampire Mansion|"
+  },
+  {
+    "name": "Transform Count's Lands",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Village| AND |Vampire Mansion| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Place Wheat Fields",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Wheat Fields| AND |Village|"
+  },
+  {
+    "name": "Transform Overgrown Field",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Wheat Fields| AND |Village| AND (|Oblivion| OR (|Forest| AND {ItemValue(loops:4)} AND |@Equip Slots:1|))"
+  },
+  {
+    "name": "Place Ruins",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Ruins|"
+  },
+  {
+    "name": "Place Swamp",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Swamp|"
+  },
+  {
+    "name": "Manifest A Village?",
+    "category": [
+      "Tile",
+      "Manifestation"
+    ],
+    "requires": "|Forest| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Transform Bridge",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|River| and {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Place Spider Cocoon",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Spider Cocoon|"
+  },
+  {
+    "name": "Place Vampire Mansion",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Vampire Mansion|"
+  },
+  {
+    "name": "Place Battle Field",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Battle Field|"
+  },
+  {
+    "name": "Transform Shipwreck",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Place Road Lantern",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Road Lantern|"
+  },
+  {
+    "name": "Manifest Goblin Camp",
+    "category": [
+      "Tile",
+      "Manifestation"
+    ],
+    "requires": "|Rock| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Transform Goblin Lookout",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Rock| AND |Swamp| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Place Witch Hut",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Swamp| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Place Bookery",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Bookery|"
+  },
+  {
+    "name": "Transform Abandoned Bookery",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Bookery| AND {ItemValue(loops:5)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Place Blood Grove",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Blood Grove| AND (|Forest| OR |Grove|)"
+  },
+  {
+    "name": "Transform Hungry Grove",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Blood Grove| AND ((|Oblivion| AND (|Forest| OR |Grove|)) OR (|Forest| AND |Storm Temple|))"
+  },
+  {
+    "name": "Manifest Bandit Camp",
+    "category": [
+      "Tile",
+      "Manifestation"
+    ],
+    "requires": "|Village| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Transform Reed",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|River| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Place Outpost",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Outpost|"
+  },
+  {
+    "name": "Place Smith's Forge",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Smith's Forge|"
+  },
+  {
+    "name": "Place Chrono Crystals",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Chrono Crystals|"
+  },
+  {
+    "name": "Place Rock",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Rock|"
+  },
+  {
+    "name": "Place Mountain",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Rock|"
+  },
+  {
+    "name": "Transform Mountain Peak",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Rock| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Place Meadow",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Meadow|"
+  },
+  {
+    "name": "Transform Blooming Meadow",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Meadow|"
+  },
+  {
+    "name": "Place Desert",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Desert|"
+  },
+  {
+    "name": "Place Sand Dunes",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Desert|"
+  },
+  {
+    "name": "Manifest Ziggurat",
+    "category": [
+      "Tile",
+      "Manifestation"
+    ],
+    "requires": "|Desert| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Place River",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|River|"
+  },
+  {
+    "name": "Transform Oasis",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|River| AND |Desert|"
+  },
+  {
+    "name": "Place Forest",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Forest|"
+  },
+  {
+    "name": "Place Thicket",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Forest|"
+  },
+  {
+    "name": "Transform Burned Forest",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Forest| AND |Storm Temple| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Transform Maquis",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Forest| AND |Desert|"
+  },
+  {
+    "name": "Place Suburbs",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Suburbs|"
+  },
+  {
+    "name": "Transform Town",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Suburbs| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Place Treasury",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Treasury|"
+  },
+  {
+    "name": "Transform Empty Treasury",
+    "category": [
+      "Tile",
+      "Transformation"
+    ],
+    "requires": "|Treasury| AND {ItemValue(loops:6)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Place Storm Temple",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Storm Temple| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Place Beacon",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Beacon|"
+  },
+  {
+    "name": "Place Temporal Beacon",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Temporal Beacon|"
+  },
+  {
+    "name": "Manifest Lich's Palace",
+    "category": [
+      "Tile",
+      "Manifestation"
+    ],
+    "requires": "{ItemValue(loops:5)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Place Arsenal",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Arsenal|"
+  },
+  {
+    "name": "Place Ancestral Crypt",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Ancestral Crypt|"
+  },
+  {
+    "name": "Place Maze of Memories",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Maze of Memories|"
+  },
+  {
+    "name": "Place Zero Milestone",
+    "category": [
+      "Tile",
+      "Placement"
+    ],
+    "requires": "|Zero Milestone|"
+  },
+  {
+    "name": "Kill Slime",
+    "category": [
+      "Kill"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Kill Ratwolf",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Grove| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Kill Spider",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Spider Cocoon| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Kill Skeleton",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Cemetery| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Kill Skeleton Archer",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Cemetery| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Kill Cracked Skeleton",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Cemetery| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Kill Chest",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Battle Field| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Kill Mimic",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Battle Field| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Kill Blood Clot",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Battle Field| AND {ItemValue(loops:3)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Ghost",
+    "category": [
+      "Kill",
+      "Optional"
+    ],
+    "requires": "|Battle Field| AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Ghost of a Ghost",
+    "category": [
+      "Kill",
+      "Optional"
+    ],
+    "requires": "|Battle Field| AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Prime Matter",
+    "category": [
+      "Kill",
+      "Optional"
+    ],
+    "requires": "|Battle Field| AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Kill Vampire",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Vampire Mansion| AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Kill Vampire Mage",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Vampire Mansion| AND |Bookery| AND |@Equip Slots:2| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Kill Swarm of Bats",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Vampire Mansion| AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Kill Watcher",
+    "category": [
+      "Kill",
+      "Optional"
+    ],
+    "requires": "|Temporal Beacon| AND {ItemValue(loops:3)} AND |Main Weapon| AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Kill Watcher Mage",
+    "category": [
+      "Kill",
+      "Optional"
+    ],
+    "requires": "|Temporal Beacon| AND |Bookery| AND |@Equip Slots:2| AND {ItemValue(loops:7)}"
+  },
+  {
+    "name": "Kill Tome",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Bookery| AND {ItemValue(loops:8)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Goblin",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Rock| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Kill Goblin Leader",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Rock| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Kill Ghoul",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Village| AND |Vampire Mansion| AND |@Equip Slots:1| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Kill Bandit",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Village| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Harpy",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Rock| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Kill Gargoyle",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Treasury| AND {ItemValue(loops:8)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Flesh Golem",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Blood Grove| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Living Armor",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Smith's Forge| AND {ItemValue(loops:5)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Mosquito",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Protective Totem",
+    "category": [
+      "Kill",
+      "Optional"
+    ],
+    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Scarecrow",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Wheat Fields| AND |Village| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Kill Field of Blades",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Wheat Fields| AND |Village| AND (|Oblivion| OR (|Forest| AND {ItemValue(loops:5)} AND |@Equip Slots:1|))"
+  },
+  {
+    "name": "Kill or Drive Off Scorch Worm",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Ruins| AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Sand Spirit",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Desert| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Fishman",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|River| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Kill Siren",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:3|"
+  },
+  {
+    "name": "Kill Jellyfish",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Kill Wooden Warrior",
+    "category": [
+      "Kill"
+    ],
+    "requires": "|Forest| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Kill Dark Slime",
+    "category": [
+      "Kill",
+      "Optional"
+    ],
+    "requires": "|Oblivion| AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Kill Lich",
+    "category": [
+      "Kill",
+      "Boss"
+    ],
+    "requires": "|@Equip Slots:3| AND {ItemValue(loops:4)}"
+  },
+  {
+    "name": "Kill Priestess",
+    "category": [
+      "Kill",
+      "Boss"
+    ],
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:6)}"
+  },
+  {
+    "name": "Kill Hunter",
+    "category": [
+      "Kill",
+      "Boss"
+    ],
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+  },
+  {
+    "name": "Kill Hunter's Hound",
+    "category": [
+      "Kill",
+      "Boss"
+    ],
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+  },
+  {
+    "name": "Learn Card-Sharp",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Surveyor",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Second Thoughts",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Supplies",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Blissful Ignorance",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Deep Pockets",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Axis Tilt",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Omicron's Technique",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Awakened Fragment",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Treasure Hunter",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Gift of Blood",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Post-Mortem Toll",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Skilled Architect",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn God's Eye",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Shield of Faith",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Their Own Peril",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Bottomless Bottle",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Blind Rage",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Lightning Fast",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Hunter's Mark",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Shield-Master/Fuss/Edge of Impossible",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Skilled Armorer/Smoke Screen/Field Practice",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Buckler/Pickpocket/Art of Control",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Article of Protection/Picky/Residual Heat",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Blade of Dawn/Marauder/Ambitions of the Dead",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Somersault/Child of the Forest/Counterattack",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Strong Aftertaste/Old Scars/Preparation for a Ceremony",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Dominant Mass/Lethal Weakness/Unseen Care",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Battering Ram/Nothing is Sacred/Horde",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Learn Survivalist/Master of Fencing/Laying Down One's Life",
+    "category": [
+      "Level"
+    ],
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+  },
+  {
+    "name": "Turn In Quest to Village or Count's Lands",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Village| AND {ItemValue(loops:3)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Destroy a Tile with Oblivion",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Oblivion|"
+  },
+  {
+    "name": "Trade Cards at Bookery",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Bookery| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Get a Potion from a Witch",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Swamp| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Trade In Equipment at a Smith's Forge",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Smith's Forge| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Fight with Help from an Outpost",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Outpost| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Get Shot At by an Outpost",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Outpost| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "See or Get Struck By Lightning",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Storm Temple| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Feed an Enemy to a Blood Grove",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Blood Grove| AND (|Forest| OR |Grove|) AND {ItemValue(loops:2)}"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "LoopHero",
+  "creator": "RachelsNotEvil",
+  "filler_item_name": "Ennui",
+  "starting_items": [
+    {
+      "item_categories": ["Road"],
+      "random": 2
+    },
+    {
+      "item_categories": ["NoBloodGrove"],
+      "random": 2
+    },
+    {
+      "item_categories": ["Terrain"],
+      "random": 2
+    },
+    {
+      "item_categories": ["Special Cards"],
+      "random": 1
+    },
+    {
+      "items": ["1 Loop"],
+      "random": 1
+    },
+    {
+      "item_categories": ["Character Class"]
+    },
+    {
+      "items": ["Progressive Supply Capacity"],
+      "random": 1
+    }
+  ]
+}

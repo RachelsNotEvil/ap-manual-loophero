@@ -1,0 +1,737 @@
+[
+  {
+    "count": "21",
+    "name": "1 Loop",
+    "category": [
+      "Loops"
+    ],
+    "progression": true,
+    "value": {
+      "loops": 1
+    }
+  },
+  {
+    "count": "2",
+    "name": "2 Loops",
+    "category": [
+      "Loops"
+    ],
+    "progression": true,
+    "value": {
+      "loops": 2
+    }
+  },
+  {
+    "count": 1,
+    "name": "Weapon",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Main Weapon",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Book",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shield",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Off-Hand Weapon",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Right Ring",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Armor",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Necklace",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ring",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Boots",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Left Ring",
+    "category": [
+      "Equip Slots"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Cemetery",
+    "category": [
+      "Cards",
+      "Road",
+      "NoWheat"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Village",
+    "category": [
+      "Cards",
+      "Road",
+      "NoWheat"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Grove",
+    "category": [
+      "Cards",
+      "Road",
+      "NoWheat"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wheat Fields",
+    "category": [
+      "Cards",
+      "Road"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Swamp",
+    "category": [
+      "Cards",
+      "Road",
+      "NoWheat"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ruins",
+    "category": [
+      "Cards",
+      "Road",
+      "NoWheat"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Spider Cocoon",
+    "category": [
+      "Cards",
+      "Roadside",
+      "NoBloodGrove"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Vampire Mansion",
+    "category": [
+      "Cards",
+      "Roadside",
+      "NoBloodGrove"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Battle Field",
+    "category": [
+      "Cards",
+      "Roadside",
+      "NoBloodGrove"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Blood Grove",
+    "category": [
+      "Cards",
+      "Roadside"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Bookery",
+    "category": [
+      "Cards",
+      "Roadside",
+      "NoBloodGrove"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Road Lantern",
+    "category": [
+      "Cards",
+      "Roadside",
+      "NoBloodGrove"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Smith's Forge",
+    "category": [
+      "Cards",
+      "Roadside",
+      "NoBloodGrove"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Chrono Crystals",
+    "category": [
+      "Cards",
+      "Roadside",
+      "NoBloodGrove"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Outpost",
+    "category": [
+      "Cards",
+      "Roadside",
+      "NoBloodGrove"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rock",
+    "category": [
+      "Cards",
+      "Terrain"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Forest",
+    "category": [
+      "Cards",
+      "Terrain"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "River",
+    "category": [
+      "Cards",
+      "Terrain"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Desert",
+    "category": [
+      "Cards",
+      "Terrain"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Meadow",
+    "category": [
+      "Cards",
+      "Terrain"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Suburbs",
+    "category": [
+      "Cards",
+      "Terrain"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Oblivion",
+    "category": [
+      "Cards",
+      "Special Cards"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Beacon",
+    "category": [
+      "Cards",
+      "Special Cards"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Storm Temple",
+    "category": [
+      "Cards",
+      "Special Cards"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Temporal Beacon",
+    "category": [
+      "Cards",
+      "Special Cards"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Treasury",
+    "category": [
+      "Cards",
+      "Special Cards"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ancestral Crypt",
+    "category": [
+      "Cards",
+      "Gold Cards"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Zero Milestone",
+    "category": [
+      "Cards",
+      "Gold Cards"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Maze of Memories",
+    "category": [
+      "Cards",
+      "Gold Cards"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Arsenal",
+    "category": [
+      "Cards",
+      "Gold Cards"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Hands-Off Trap",
+    "category": [
+      "Trap"
+    ],
+    "trap": true
+  },
+  {
+    "count": 1,
+    "name": "Sense of Futility",
+    "category": [
+      "Useless"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Oak Bed",
+    "category": [
+      "Supply",
+      "Furniture"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Dinner Table",
+    "category": [
+      "Supply",
+      "Furniture"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Sturdy Stool",
+    "category": [
+      "Supply",
+      "Furniture"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Count's Chair",
+    "category": [
+      "Supply",
+      "Furniture"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Antique Shelf",
+    "category": [
+      "Supply",
+      "Furniture"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Antique Wardrobe",
+    "category": [
+      "Supply",
+      "Furniture"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Alchemist's Shelf",
+    "category": [
+      "Supply",
+      "Furniture"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Chest",
+    "category": [
+      "Supply",
+      "Furniture"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Miner's Pick",
+    "category": [
+      "Supply",
+      "Tools"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Skinner's Knife",
+    "category": [
+      "Supply",
+      "Tools"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Blacksmith's Hammer",
+    "category": [
+      "Supply",
+      "Tools"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Farmer's Scythe",
+    "category": [
+      "Supply",
+      "Tools"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Forester's Axe",
+    "category": [
+      "Supply",
+      "Tools"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Old Frying Pan",
+    "category": [
+      "Supply",
+      "Tools"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Herbalist's Sickle",
+    "category": [
+      "Supply",
+      "Tools"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Shoe Nails",
+    "category": [
+      "Supply",
+      "Tools"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Kitchen Knife",
+    "category": [
+      "Supply",
+      "Tools"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Jeweler's Lens",
+    "category": [
+      "Supply",
+      "Tools"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Loaf of Bread",
+    "category": [
+      "Supply",
+      "Food"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Smoked Ham",
+    "category": [
+      "Supply",
+      "Food"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Garlic",
+    "category": [
+      "Supply",
+      "Food"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Cheese",
+    "category": [
+      "Supply",
+      "Food"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Mixed Nuts",
+    "category": [
+      "Supply",
+      "Food"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Meat Stew",
+    "category": [
+      "Supply",
+      "Food"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Rare Book",
+    "category": [
+      "Supply",
+      "Jewelry"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Exquisite Mirror",
+    "category": [
+      "Supply",
+      "Jewelry"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Brass Candlestick",
+    "category": [
+      "Supply",
+      "Jewelry"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Silver Pendant",
+    "category": [
+      "Supply",
+      "Jewelry"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Silverware",
+    "category": [
+      "Supply",
+      "Jewelry"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Old Painting",
+    "category": [
+      "Supply",
+      "Jewelry"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Intrusive Thoughts",
+    "category": [
+      "Useless"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Broken Gauntlet",
+    "category": [
+      "Useless"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Broken Belt",
+    "category": [
+      "Useless"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Warrior",
+    "category": [
+      "Character Class"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rogue",
+    "category": [
+      "Character Class"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Necromancer",
+    "category": [
+      "Character Class"
+    ],
+    "progression": true
+  },
+  {
+    "count": 10,
+    "name": "Progressive Supply Capacity",
+    "category": [
+      "Supply"
+    ],
+    "useful": true
+  }
+]

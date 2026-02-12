@@ -1,0 +1,41 @@
+{
+	"NoBloodGrove": {
+		"hidden": true
+	},
+	"Level": {
+		"yaml_option": ["include_level_locations"]
+	},
+	"Food": {
+		"hidden": true
+	},
+	"Furniture": {
+		"hidden": true
+	},
+	"Jewelry": {
+		"hidden": true
+	},
+	"Tools": {
+		"hidden": true
+	},
+	"Gold Cards": {
+		"hidden": true
+	},
+	"Road": {
+		"hidden": true
+	},
+	"Roadside": {
+		"hidden": true
+	},
+	"Special Cards": {
+		"hidden": true
+	},
+	"Terrain": {
+		"hidden": true
+	},
+	"Optional": {
+		"hidden": true
+	},
+	"NoWheat": {
+		"hidden": true
+	}
+}
