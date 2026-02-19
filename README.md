@@ -32,8 +32,8 @@ Each kind of supply item appears once in the pool, and you begin with 1 "Progres
 There is currently only one trap, the Hands-Off Trap. Receiving this trap means you cannot change equipment, play cards, etc. until you finish a loop by returning to the camp tile. If you're halfway through a loop, you just have to reach the camp, but if you're *already at the camp*, you need to complete the whole loop and reach camp again. Recieving this trap while not in the middle of a run applies it to the first loop of your next run, and receiving one while still resolving another hands-off trap will apply it to the *next* loop – in other words, multiple hands-off traps have to be resolved consecutively.
 
 ## Locations
-### Kill
-You send these checks when you kill each enemy type. You do not have to survive the battle, and if you're fast, you may claim this check before the battle is finished. Scorch Worms are an exception – you do not need to actually "kill" a Scorch Worm; causing it to run away is sufficient.
+### Enemies
+You send these checks when you kill or defeat each enemy type. You do not have to survive the battle, and if you're fast, you may claim this check before the battle is finished. Locations in this category that say "Kill" require you to actually kill the enemy, while locations that say "Defeat" can be sent when you kill the enemy *or* if it runs away.
 
 Several annoying or difficult enemies can have their locations disabled in the yaml, and several of these are disabled by default. You can defeat other difficult enemies by using the archers near the camp, but for any enemy that you cannot easily control the location of, you will be expected to have an equip slot or two before killing them.
 

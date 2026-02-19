@@ -12,7 +12,7 @@
     "victory": true,
     "category": [
       "Boss",
-      "Kill"
+      "Enemies"
     ],
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
   },
@@ -459,70 +459,70 @@
   {
     "name": "Kill Slime",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": ""
   },
   {
     "name": "Kill Ratwolf",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Grove| AND {ItemValue(loops:2)}"
   },
   {
     "name": "Kill Spider",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Spider Cocoon| AND {ItemValue(loops:2)}"
   },
   {
     "name": "Kill Skeleton",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Cemetery| AND {ItemValue(loops:2)}"
   },
   {
     "name": "Kill Skeleton Archer",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Cemetery| AND {ItemValue(loops:2)}"
   },
   {
     "name": "Kill Cracked Skeleton",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Cemetery| AND {ItemValue(loops:2)}"
   },
   {
     "name": "Kill Chest",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Battle Field| AND {ItemValue(loops:2)}"
   },
   {
     "name": "Kill Mimic",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Battle Field| AND {ItemValue(loops:2)}"
   },
   {
     "name": "Kill Blood Clot",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Battle Field| AND {ItemValue(loops:3)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Ghost",
     "category": [
-      "Kill",
+      "Enemies",
       "Optional"
     ],
     "requires": "|Battle Field| AND |@Equip Slots:1|"
@@ -530,7 +530,7 @@
   {
     "name": "Kill Ghost of a Ghost",
     "category": [
-      "Kill",
+      "Enemies",
       "Optional"
     ],
     "requires": "|Battle Field| AND |@Equip Slots:1|"
@@ -538,7 +538,7 @@
   {
     "name": "Kill Prime Matter",
     "category": [
-      "Kill",
+      "Enemies",
       "Optional"
     ],
     "requires": "|Battle Field| AND |@Equip Slots:2|"
@@ -546,36 +546,36 @@
   {
     "name": "Kill Vampire",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Vampire Mansion| AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Vampire Mage",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Vampire Mansion| AND |Bookery| AND |@Equip Slots:2| AND {ItemValue(loops:2)}"
   },
   {
     "name": "Kill Swarm of Bats",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Vampire Mansion| AND |@Equip Slots:2|"
   },
   {
-    "name": "Kill Watcher",
+    "name": "Defeat Watcher",
     "category": [
-      "Kill",
+      "Enemies",
       "Optional"
     ],
     "requires": "|Temporal Beacon| AND {ItemValue(loops:3)} AND |Main Weapon| AND |@Equip Slots:2|"
   },
   {
-    "name": "Kill Watcher Mage",
+    "name": "Defeat Watcher Mage",
     "category": [
-      "Kill",
+      "Enemies",
       "Optional"
     ],
     "requires": "|Temporal Beacon| AND |Bookery| AND |@Equip Slots:2| AND {ItemValue(loops:7)}"
@@ -583,77 +583,77 @@
   {
     "name": "Kill Tome",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Bookery| AND {ItemValue(loops:8)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Goblin",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Rock| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Goblin Leader",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Rock| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Ghoul",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Village| AND |Vampire Mansion| AND |@Equip Slots:1| AND {ItemValue(loops:2)}"
   },
   {
     "name": "Kill Bandit",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Village| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Harpy",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Rock| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Gargoyle",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Treasury| AND {ItemValue(loops:8)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Flesh Golem",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Blood Grove| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Living Armor",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Smith's Forge| AND {ItemValue(loops:5)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Mosquito",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Protective Totem",
     "category": [
-      "Kill",
+      "Enemies",
       "Optional"
     ],
     "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
@@ -661,63 +661,63 @@
   {
     "name": "Kill Scarecrow",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Wheat Fields| AND |Village| AND {ItemValue(loops:3)}"
   },
   {
     "name": "Kill Field of Blades",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Wheat Fields| AND |Village| AND (|Oblivion| OR (|Forest| AND {ItemValue(loops:5)} AND |@Equip Slots:1|))"
   },
   {
-    "name": "Kill or Drive Off Scorch Worm",
+    "name": "Defeat Scorch Worm",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Ruins| AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Sand Spirit",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Desert| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Fishman",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|River| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Siren",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:3|"
   },
   {
     "name": "Kill Jellyfish",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Wooden Warrior",
     "category": [
-      "Kill"
+      "Enemies"
     ],
     "requires": "|Forest| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Dark Slime",
     "category": [
-      "Kill",
+      "Enemies",
       "Optional"
     ],
     "requires": "|Oblivion| AND |@Equip Slots:2|"
@@ -725,7 +725,7 @@
   {
     "name": "Kill Lich",
     "category": [
-      "Kill",
+      "Enemies",
       "Boss"
     ],
     "requires": "|@Equip Slots:3| AND {ItemValue(loops:4)}"
@@ -733,7 +733,7 @@
   {
     "name": "Kill Priestess",
     "category": [
-      "Kill",
+      "Enemies",
       "Boss"
     ],
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:6)}"
@@ -741,7 +741,7 @@
   {
     "name": "Kill Hunter",
     "category": [
-      "Kill",
+      "Enemies",
       "Boss"
     ],
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
@@ -749,7 +749,7 @@
   {
     "name": "Kill Hunter's Hound",
     "category": [
-      "Kill",
+      "Enemies",
       "Boss"
     ],
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
