@@ -53,7 +53,7 @@ This is my name for when the game places a tile for you when you meet certain co
 These are various interactions with the unique mechanics of a tile that didn't fit into any other category. I'm hoping to add a lot more Tasks in the future.
 
 ### Boss
-This is a subset of the "Kill" category that includes only the 4 bosses.
+This is a subset of the "Enemies" category that includes only the 4 bosses.
 
 ### Tile
 This is a catch-all category that combines Placement, Transformation, and Manifestation locations.
