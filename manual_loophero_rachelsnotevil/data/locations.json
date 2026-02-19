@@ -1026,5 +1026,26 @@
       "Tasks"
     ],
     "requires": "|Blood Grove| AND (|Forest| OR |Grove|) AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Scare an Enemy with a Scarecrow",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Wheat Fields| AND |Village| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Scare a Watcher with a Vampire",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Temporal Beacon| AND |Vampire Mansion| AND {ItemValue(loops:2)}"
+  },
+  {
+    "name": "Start the Day in a Swamp",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Swamp| AND {ItemValue(loops:3}"
   }
 ]

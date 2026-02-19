@@ -16,8 +16,12 @@
         },
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "description": [
+                "This is not implemented yet. Currently 1 trap item will be in the pool.",
+                "But if you try it and it does something, let me know."
+            ],
             "values": {
-                "recommended": 20
+                "recommended": 0
             }
         }
     },
@@ -70,7 +74,8 @@
         "include_watchers": {
             "type": "Choice",
             "description": [
-                "Whether killing the Watcher and Watcher Mage are checks."
+                "Whether defeating the Watcher and Watcher Mage are checks.",
+                "Default is changed since this no longer requires you to kill them, only make them run."
             ],
             "group": "Enemy Logic",
             "values": {
@@ -79,7 +84,7 @@
                 "Include Watcher Mage": 2,
                 "Include Both": 3
             },
-            "default": 0,
+            "default": 1,
             "allow_custom_value": false
         },
         "_Example_Toggle":{
@@ -90,18 +95,6 @@
             "type": "Toggle",
             "default": false,
             "group": "Example Options"
-        },
-        "_Goal":{
-            "description": [
-                "What you need to do to win. Currently the only option is to play only Chapter 4 and defeat Omega."
-            ],
-            "type": "Choice",
-            "values": {
-                "Chapter 4 Only":0
-            },
-            "default":0,
-            "allow_custom_value": false,
-            "group": "Game Options"
         },
         "_Example_Choice":{
             "type": "Choice",
@@ -132,18 +125,6 @@
             "range_end": 10,
             "values": {"example": 2},
             "group": "Example Options"
-        },
-
-        "_DLC_enabled":{
-            "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
-            "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
-            ],
-            "default": true
         }
     }
 
