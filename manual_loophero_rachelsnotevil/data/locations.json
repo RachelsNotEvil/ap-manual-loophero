@@ -1046,6 +1046,6 @@
     "category": [
       "Tasks"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:3}"
+    "requires": "|Swamp| AND {ItemValue(loops:3)}"
   }
 ]
