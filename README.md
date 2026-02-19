@@ -7,6 +7,8 @@ This is a way to play Loop Hero in an Archipelago multiworld based on the Manual
 Play through Loop Hero (currently only chapter 4) as your chosen class with your maximum number of loops per run, equip slots, cards, and supply items randomized in the pool. You start with a minimum-viable 7-card deck, 1 loop, and 1 supply capacity, and must find the rest. You send checks by placing, transforming, or manifesting each kind of tile, for killing each kind of enemy, and for performing other tasks that interact with the tiles' unique mechanics. Win by defeating Omega at the end of Chapter 4.
 
 ### Setup
+For information on how to set up a manual apworld, I recommend their own documentation, or you can check out my attempt to explain it [here](https://github.com/RachelsNotEvil/ap-manual-loophero/blob/main/manual_loophero_rachelsnotevil/docs/setup_en.md).
+
 This is intended to be played with a clear save file, or at least one with access to chapter 4, with each kind of building and each card unlocked. If you're playing with level-up checks enabled, you should also have every skill unlocked by beating the game enough times.
 
 The first thing to do is create an empty supply loadout. Since you do not start with any supply items, this is the loadout you will use to begin with. When you generate the game, it will give you items representing your character class, 1 loop, 1 supply capacity (explained below), and the 7 cards in your starting deck. You can then check these items and make your starting deck out of those first 7 cards. **If the game fails to give you enough of the right kind of cards to create a valid deck at the start, this is an error and you should notify me on the game's post in the Manual for Archipelago discord.**
