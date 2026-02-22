@@ -46,9 +46,6 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove: list[str] = [] # List of location names
 
     # Add your code here to calculate which locations to remove
-    if not get_option_value(multiworld, player, "include_totem"):
-        locationNamesToRemove.append("Kill Protective Totem")
-
     if not get_option_value(multiworld, player, "include_dark_slime"):
         locationNamesToRemove.append("Kill Dark Slime")
 
@@ -62,7 +59,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
     option_choice = get_option_value(multiworld, player, "include_watchers")
     if option_choice == 0 or option_choice == 2:
-        locationNamesToRemove.append("Kill Watcher")
+        locationNamesToRemove.append("Defeat Watcher")
     if option_choice < 2:
         locationNamesToRemove.append("Kill Watcher Mage")
 
@@ -70,6 +67,21 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
         locationNamesToRemove.append("Fight with Help from an Outpost")
     else:
         locationNamesToRemove.append("Get Shot At by an Outpost")
+
+    option_choice = get_option_value(multiworld, player, "goal")
+    if option_choice < 3:
+        locationNamesToRemove.append("Kill Lich (Chapter 4)")
+        locationNamesToRemove.append("Kill Priestess (Chapter 4)")
+        locationNamesToRemove.append("Kill Hunter (Chapter 4)")
+        locationNamesToRemove.append("Kill Hunter's Hound (Chapter 4)")
+        locationNamesToRemove.append("Defeat Protective Totem")
+        locationNamesToRemove.append("Kill Jellyfish")
+    if option_choice < 2:
+        locationNamesToRemove.append("Kill Skeleton Archer")
+        locationNamesToRemove.append("Scare an Enemy with a Scarecrow")
+    if option_choice < 1:
+        locationNamesToRemove.append("Kill Cracked Skeleton")
+        locationNamesToRemove.append("Kill Swarm of Bats")
 
     for region in multiworld.regions:
         if region.player == player:

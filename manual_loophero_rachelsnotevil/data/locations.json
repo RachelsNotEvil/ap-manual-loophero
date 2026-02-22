@@ -8,7 +8,34 @@
     "requires": ""
   },
   {
-    "name": "Kill Omega",
+    "name": "Kill Lich (Chapter 1)",
+    "victory": true,
+    "category": [
+      "Boss",
+      "Enemies"
+    ],
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+  },
+  {
+    "name": "Kill Priestess (Chapter 2)",
+    "victory": true,
+    "category": [
+      "Boss",
+      "Enemies"
+    ],
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+  },
+  {
+    "name": "Kill Hunter and Hounds (Chapter 3)",
+    "victory": true,
+    "category": [
+      "Boss",
+      "Enemies"
+    ],
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+  },
+  {
+    "name": "Kill Omega (Chapter 4)",
     "victory": true,
     "category": [
       "Boss",
@@ -573,7 +600,7 @@
     "requires": "|Temporal Beacon| AND {ItemValue(loops:3)} AND |Main Weapon| AND |@Equip Slots:2|"
   },
   {
-    "name": "Defeat Watcher Mage",
+    "name": "Kill Watcher Mage",
     "category": [
       "Enemies",
       "Optional"
@@ -585,21 +612,28 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Bookery| AND {ItemValue(loops:8)} AND |@Equip Slots:1|"
+    "requires": "|Bookery| AND {ItemValue(loops:7)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Goblin",
     "category": [
       "Enemies"
     ],
-    "requires": "|Rock| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
+    "requires": "|Rock| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Goblin Leader",
     "category": [
       "Enemies"
     ],
-    "requires": "|Rock| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
+    "requires": "|Rock| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
+  },
+  {
+    "name": "Defeat Goblin Archer",
+    "category": [
+      "Enemies"
+    ],
+    "requires": "|Rock| AND {ItemValue(loops:5)} AND |Swamp| AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Ghoul",
@@ -651,7 +685,14 @@
     "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
   },
   {
-    "name": "Kill Protective Totem",
+    "name": "Defeat Witch",
+    "category": [
+      "Enemies"
+    ],
+    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
+  },
+  {
+    "name": "Defeat Protective Totem",
     "category": [
       "Enemies",
       "Optional"
@@ -723,7 +764,7 @@
     "requires": "|Oblivion| AND |@Equip Slots:2|"
   },
   {
-    "name": "Kill Lich",
+    "name": "Kill Lich (Chapter 4)",
     "category": [
       "Enemies",
       "Boss"
@@ -731,7 +772,7 @@
     "requires": "|@Equip Slots:3| AND {ItemValue(loops:4)}"
   },
   {
-    "name": "Kill Priestess",
+    "name": "Kill Priestess (Chapter 4)",
     "category": [
       "Enemies",
       "Boss"
@@ -739,7 +780,7 @@
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:6)}"
   },
   {
-    "name": "Kill Hunter",
+    "name": "Kill Hunter (Chapter 4)",
     "category": [
       "Enemies",
       "Boss"
@@ -747,7 +788,7 @@
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
   },
   {
-    "name": "Kill Hunter's Hound",
+    "name": "Kill Hunter's Hound (Chapter 4)",
     "category": [
       "Enemies",
       "Boss"
