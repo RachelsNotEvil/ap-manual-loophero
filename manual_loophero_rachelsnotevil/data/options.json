@@ -55,14 +55,6 @@
             "default": 1,
             "allow_custom_value": false
         },
-        "include_totem": {
-            "type": "Toggle",
-            "description": [
-                "Whether killing the witch's protective totem is a check."
-            ],
-            "group": "Enemy Logic",
-            "default": false
-        },
         "include_dark_slime": {
             "type": "Toggle",
             "description": [
@@ -74,8 +66,7 @@
         "include_watchers": {
             "type": "Choice",
             "description": [
-                "Whether defeating the Watcher and Watcher Mage are checks.",
-                "Default is changed since this no longer requires you to kill them, only make them run."
+                "Whether defeating the Watcher and Watcher Mage are checks."
             ],
             "group": "Enemy Logic",
             "values": {
