@@ -82,6 +82,8 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     if option_choice < 1:
         locationNamesToRemove.append("Kill Cracked Skeleton")
         locationNamesToRemove.append("Kill Swarm of Bats")
+    if option_choice == 1 or option_choice == 2:
+        locationNamesToRemove.append("Manifest Lich's Palace")
 
     for region in multiworld.regions:
         if region.player == player:
