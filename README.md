@@ -62,7 +62,7 @@ This is a catch-all category that combines Placement, Transformation, and Manife
 Don't forget to claim your "manifest wasteland" at the start of your first run!
 
 It can be hard to tell when certain enemies appear, particularly if you're relying on archers in the early loops or have the battle speed turned up. Some things I've found helpful are:
-The Chest and Mimic look different when defeated: the Chest just looks like an open chest, while the Mimic is sagging and distorted.
-Ghosts make a unique sound when they appear.
+• The Chest and Mimic look different when defeated: the Chest just looks like an open chest, while the Mimic is sagging and distorted.
+• Ghosts make a unique sound when they appear.
 
 GLHF!
