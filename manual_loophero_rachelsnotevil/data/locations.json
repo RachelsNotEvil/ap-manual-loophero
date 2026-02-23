@@ -1095,5 +1095,12 @@
       "Tasks"
     ],
     "requires": "|Vampire Mansion| AND (|Spider Cocoon| OR |Village|) AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Gain a Level",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "({ItemValue(loops:3)} AND |Suburbs|) OR ({ItemValue(loops:6)} AND |@Equip Slots:1|)"
   }
 ]

@@ -66,6 +66,9 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     if option_choice < 2:
         locationNamesToRemove.append("Kill Watcher Mage")
 
+    if get_option_value(multiworld, player, "include_level_locations")
+        locationNamesToRemove.append("Gain a Level")
+
     if get_option_value(multiworld, player, "character_class") == 2:
         locationNamesToRemove.append("Fight with Help from an Outpost")
     else:
