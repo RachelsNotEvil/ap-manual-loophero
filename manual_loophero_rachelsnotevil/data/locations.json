@@ -23,7 +23,7 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:11)}"
   },
   {
     "name": "Kill Hunter and Hounds (Chapter 3)",
@@ -32,7 +32,7 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:14)}"
   },
   {
     "name": "Kill Omega (Chapter 4)",
@@ -41,7 +41,7 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:12)}"
   },
   {
     "name": "Place Cemetery",
