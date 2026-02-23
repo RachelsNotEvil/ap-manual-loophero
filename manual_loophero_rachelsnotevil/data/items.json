@@ -1,24 +1,13 @@
 [
   {
-    "count": "21",
-    "name": "1 Loop",
+    "count": "25",
+    "name": "Loop",
     "category": [
       "Loops"
     ],
     "progression": true,
     "value": {
       "loops": 1
-    }
-  },
-  {
-    "count": "2",
-    "name": "2 Loops",
-    "category": [
-      "Loops"
-    ],
-    "progression": true,
-    "value": {
-      "loops": 2
     }
   },
   {
