@@ -5,7 +5,7 @@
   "filler_item_name": "Ennui",
   "starting_items": [
     {
-      "item_categories": ["Road"],
+      "item_categories": ["NoWheat"],
       "random": 2
     },
     {
