@@ -17,12 +17,9 @@
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
             "description": [
-                "This is not implemented yet. Currently 1 trap item will be in the pool.",
-                "But if you try it and it does something, let me know."
-            ],
-            "values": {
-                "recommended": 0
-            }
+                "This determines what percentage of the filler 'Ennui' items will be replaced with traps.",
+                "Because I don't know how to change it yet, there will always be at least one trap."
+            ]
         }
     },
     "user": {
