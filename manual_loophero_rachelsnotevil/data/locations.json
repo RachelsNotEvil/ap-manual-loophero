@@ -1088,5 +1088,12 @@
       "Tasks"
     ],
     "requires": "|Swamp| AND {ItemValue(loops:3)}"
+  },
+  {
+    "name": "Get an Orb of Expansion",
+    "category": [
+      "Tasks"
+    ],
+    "requires": "|Vampire Mansion| AND (|Spider Cocoon| OR |Village|) AND {ItemValue(loops:3)}"
   }
 ]
