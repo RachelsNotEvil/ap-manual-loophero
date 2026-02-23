@@ -49,6 +49,9 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     if not get_option_value(multiworld, player, "include_dark_slime"):
         locationNamesToRemove.append("Kill Dark Slime")
 
+    if not get_option_value(multiworld, player, "include_mimic"):
+        locationNamesToRemove.append("Kill Mimic")
+
     option_choice = get_option_value(multiworld, player, "include_ghosts")
     if option_choice < 3:
         locationNamesToRemove.append("Kill Prime Matter")

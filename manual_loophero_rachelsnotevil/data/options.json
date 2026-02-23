@@ -63,6 +63,16 @@
             "group": "Enemy Logic",
             "default": false
         },
+        "include_mimic": {
+            "type": "Toggle",
+            "description": [
+                "Whether killing a Mimic is a check.",
+                "'Killing' a Chest will always be a check, but the mimic that sometimes replaces it is",
+                "fairly uncommon, so if you don't want to deal with the RNG, you can disable it here."
+            ],
+            "group": "Enemy Logic",
+            "default": true
+        },
         "include_watchers": {
             "type": "Choice",
             "description": [
@@ -75,7 +85,7 @@
                 "Include Watcher Mage": 2,
                 "Include Both": 3
             },
-            "default": 1,
+            "default": 3,
             "allow_custom_value": false
         },
         "_Example_Toggle":{
