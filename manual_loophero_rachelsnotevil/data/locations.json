@@ -1076,13 +1076,6 @@
     "requires": "|Wheat Fields| AND |Village| AND {ItemValue(loops:3)}"
   },
   {
-    "name": "Scare a Watcher with a Vampire",
-    "category": [
-      "Tasks"
-    ],
-    "requires": "|Temporal Beacon| AND |Vampire Mansion| AND {ItemValue(loops:2)}"
-  },
-  {
     "name": "Start the Day in a Swamp",
     "category": [
       "Tasks"
