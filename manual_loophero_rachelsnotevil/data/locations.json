@@ -14,7 +14,7 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:9)}"
   },
   {
     "name": "Kill Priestess (Chapter 2)",
@@ -185,7 +185,7 @@
       "Tile",
       "Manifestation"
     ],
-    "requires": "|Rock| AND {ItemValue(loops:3)}"
+    "requires": "|Rock| AND {ItemValue(loops:4)}"
   },
   {
     "name": "Transform Goblin Lookout",
@@ -193,7 +193,7 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Rock| AND |Swamp| AND {ItemValue(loops:3)}"
+    "requires": "|Rock| AND |Swamp| AND {ItemValue(loops:5)}"
   },
   {
     "name": "Place Witch Hut",
@@ -575,21 +575,21 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Vampire Mansion| AND |@Equip Slots:2|"
+    "requires": "|Vampire Mansion| AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Vampire Mage",
     "category": [
       "Enemies"
     ],
-    "requires": "|Vampire Mansion| AND |Bookery| AND |@Equip Slots:2| AND {ItemValue(loops:2)}"
+    "requires": "|Vampire Mansion| AND |Bookery| AND |@Equip Slots:1| AND {ItemValue(loops:5)}"
   },
   {
     "name": "Kill Swarm of Bats",
     "category": [
       "Enemies"
     ],
-    "requires": "|Vampire Mansion| AND |@Equip Slots:2|"
+    "requires": "|Vampire Mansion| AND |@Equip Slots:1|"
   },
   {
     "name": "Defeat Watcher",
@@ -597,7 +597,7 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Temporal Beacon| AND {ItemValue(loops:3)} AND |Main Weapon| AND |@Equip Slots:2|"
+    "requires": "|Temporal Beacon| AND {ItemValue(loops:3)} AND |Main Weapon| AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Watcher Mage",
@@ -605,7 +605,7 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Temporal Beacon| AND |Bookery| AND |@Equip Slots:2| AND {ItemValue(loops:7)}"
+    "requires": "|Temporal Beacon| AND |Bookery| AND |@Equip Slots:1| AND {ItemValue(loops:7)}"
   },
   {
     "name": "Kill Tome",
@@ -619,7 +619,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Rock| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
+    "requires": "|Rock| AND {ItemValue(loops:6)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Goblin Leader",
@@ -661,7 +661,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Treasury| AND {ItemValue(loops:8)} AND |@Equip Slots:1|"
+    "requires": "|Treasury| AND {ItemValue(loops:8)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Flesh Golem",
@@ -725,21 +725,21 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Desert| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+    "requires": "|Desert| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Fishman",
     "category": [
       "Enemies"
     ],
-    "requires": "|River| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
+    "requires": "|River| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Siren",
     "category": [
       "Enemies"
     ],
-    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:3|"
+    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Jellyfish",
@@ -753,7 +753,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Forest| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+    "requires": "|Forest| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
   },
   {
     "name": "Kill Dark Slime",
