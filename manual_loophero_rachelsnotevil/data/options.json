@@ -18,8 +18,11 @@
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
             "description": [
                 "This determines what percentage of the filler 'Ennui' items will be replaced with traps.",
-                "Because I don't know how to change it yet, there will always be at least one trap."
+                "On minimum location settings, there will be no filler to replace."
             ]
+        },
+        "include_level_locations": {
+            "default": false
         }
     },
     "user": {
