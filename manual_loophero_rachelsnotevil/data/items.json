@@ -391,14 +391,6 @@
   },
   {
     "count": 1,
-    "name": "Sense of Futility",
-    "category": [
-      "Useless"
-    ],
-    "filler": true
-  },
-  {
-    "count": 1,
     "name": "Oak Bed",
     "category": [
       "Supply",
@@ -669,30 +661,6 @@
   },
   {
     "count": 1,
-    "name": "Intrusive Thoughts",
-    "category": [
-      "Useless"
-    ],
-    "filler": true
-  },
-  {
-    "count": 1,
-    "name": "Broken Gauntlet",
-    "category": [
-      "Useless"
-    ],
-    "filler": true
-  },
-  {
-    "count": 1,
-    "name": "Broken Belt",
-    "category": [
-      "Useless"
-    ],
-    "filler": true
-  },
-  {
-    "count": 1,
     "name": "Warrior",
     "category": [
       "Character Class"
@@ -716,7 +684,7 @@
     "progression": true
   },
   {
-    "count": 10,
+    "count": 15,
     "name": "Progressive Supply Capacity",
     "category": [
       "Supply"
