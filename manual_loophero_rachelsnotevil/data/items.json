@@ -690,5 +690,37 @@
       "Supply"
     ],
     "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Chapter 1",
+    "category": [
+      "Chapter"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Chapter 2",
+    "category": [
+      "Chapter"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Chapter 3",
+    "category": [
+      "Chapter"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Chapter 4",
+    "category": [
+      "Chapter"
+    ],
+    "progression": true
   }
 ]
