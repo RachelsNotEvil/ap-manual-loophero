@@ -45,6 +45,16 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = [] # List of location names
 
+    #When multi-chapter is implemented, this will raise an error when start chapter is higher than goal chapter.
+    #start_chapter = get_option_value(multiworld, player, "starting_chapter")
+    #goal_chapter = get_option_value(multiworld, player, "goal")
+    #try:
+        #if start_chapter > goal_chapter:
+            #raise ValueError("Invalid yaml: cannot set goal chapter earlier than starting chapter.")
+    #except ValueError as error:
+        #logging.info(error.args)
+        #raise
+
     # Add your code here to calculate which locations to remove
     if not get_option_value(multiworld, player, "include_dark_slime"):
         locationNamesToRemove.append("Kill Dark Slime")
@@ -119,7 +129,7 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
         item_config.pop("Boots")
     if option_choice != 2:
         item_config.pop("Necromancer")
-        item_config.pop("Book")
+        item_config.pop("Book (Weapon)")
         item_config.pop("Right Ring")
         item_config.pop("Left Ring")
         item_config.pop("Necklace")
