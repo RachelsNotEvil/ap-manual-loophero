@@ -20,12 +20,6 @@
                 "This determines what percentage of the filler 'Ennui' items will be replaced with traps.",
                 "On minimum location settings, there will be no filler to replace."
             ]
-        },
-        "!exclude_level_locations": {
-            "description": [
-              "Replace locations for specific level-up skills with a generic 'level up' location? (Recommended)"
-            ],
-            "default": false
         }
     },
     "user": {
