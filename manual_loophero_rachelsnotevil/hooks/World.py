@@ -45,15 +45,15 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = [] # List of location names
 
-    #When multi-chapter is implemented, this will raise an error when start chapter is higher than goal chapter.
-    #start_chapter = get_option_value(multiworld, player, "starting_chapter")
-    #goal_chapter = get_option_value(multiworld, player, "goal")
-    #try:
-        #if start_chapter > goal_chapter:
-            #raise ValueError("Invalid yaml: cannot set goal chapter earlier than starting chapter.")
-    #except ValueError as error:
-        #logging.info(error.args)
-        #raise
+    #This will raise an error when start chapter is higher than goal chapter.
+    start_chapter = get_option_value(multiworld, player, "starting_chapter")
+    goal_chapter = get_option_value(multiworld, player, "goal")
+    try:
+        if start_chapter > goal_chapter:
+            raise ValueError("Invalid yaml: cannot set goal chapter earlier than starting chapter.")
+    except ValueError as error:
+        logging.info(error.args)
+        raise
 
     # Add your code here to calculate which locations to remove
     if not get_option_value(multiworld, player, "include_dark_slime"):
@@ -84,21 +84,20 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     else:
         locationNamesToRemove.append("Get Shot At by an Outpost")
 
-    option_choice = get_option_value(multiworld, player, "goal")
-    if option_choice < 3:
+    if goal_chapter < 3:
         locationNamesToRemove.append("Kill Lich (Chapter 4)")
         locationNamesToRemove.append("Kill Priestess (Chapter 4)")
         locationNamesToRemove.append("Kill Hunter (Chapter 4)")
         locationNamesToRemove.append("Kill Hunter's Hound (Chapter 4)")
         locationNamesToRemove.append("Defeat Protective Totem")
         locationNamesToRemove.append("Kill Jellyfish")
-    if option_choice < 2:
+    if goal_chapter < 2:
         locationNamesToRemove.append("Kill Skeleton Archer")
         locationNamesToRemove.append("Scare an Enemy with a Scarecrow")
-    if option_choice < 1:
+    if goal_chapter < 1:
         locationNamesToRemove.append("Kill Cracked Skeleton")
         locationNamesToRemove.append("Kill Swarm of Bats")
-    if option_choice == 1 or option_choice == 2:
+    if start_chapter > 0 and goal_chapter < 4:
         locationNamesToRemove.append("Manifest Lich's Palace")
 
     for region in multiworld.regions:
@@ -135,6 +134,17 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
         item_config.pop("Necklace")
     else:
         item_config.pop("Armor")
+
+    start_chapter = get_option_value(multiworld, player, "starting_chapter")
+    goal_chapter = get_option_value(multiworld, player, "goal")
+    if goal_chapter < 3:
+        item_config.pop("Chapter 4")
+    if goal_chapter < 2 or start_chapter > 2:
+        item_config.pop("Chapter 3")
+    if goal_chapter < 1 or start_chapter > 1:
+        item_config.pop("Chapter 2")
+    if start_chapter > 1:
+        item_config.pop("Chapter 1")
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
