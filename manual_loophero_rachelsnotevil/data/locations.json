@@ -597,7 +597,7 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Temporal Beacon| AND {ItemValue(loops:3)} AND |Main Weapon| AND |@Equip Slots:1|"
+    "requires": "|Temporal Beacon| AND {ItemValue(loops:3)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Watcher Mage",
