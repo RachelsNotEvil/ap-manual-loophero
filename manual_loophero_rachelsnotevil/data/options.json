@@ -22,6 +22,9 @@
             ]
         },
         "include_level_locations": {
+            "description": [
+              "Replace locations for specific level-up skills with a generic 'level up' location? (Recommended)"
+            ],
             "default": false
         }
     },

@@ -3,7 +3,7 @@
 		"hidden": true
 	},
 	"Level": {
-		"yaml_option": ["include_level_locations"]
+		"yaml_option": ["!exclude_level_locations"]
 	},
 	"Food": {
 		"hidden": true
