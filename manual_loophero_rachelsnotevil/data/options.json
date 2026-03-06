@@ -21,7 +21,7 @@
                 "On minimum location settings, there will be no filler to replace."
             ]
         },
-        "include_level_locations": {
+        "!exclude_level_locations": {
             "description": [
               "Replace locations for specific level-up skills with a generic 'level up' location? (Recommended)"
             ],
