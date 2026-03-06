@@ -29,7 +29,7 @@
         "starting_chapter": {
             "type": "Choice",
             "description": [
-                "Choose the chapter you will begin the game on. Must be earlier than the goal chapter.",
+                "Choose the chapter you will begin the game on. Cannot be later than the goal chapter.",
                 "To play a single chapter, set this and the goal to the same chapter.",
                 "I cannot currently fix it if you set this after the goal, so generation will fail if you do!"
             ],
