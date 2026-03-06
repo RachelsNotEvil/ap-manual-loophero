@@ -26,6 +26,22 @@
         }
     },
     "user": {
+        "starting_chapter": {
+            "type": "Choice",
+            "description": [
+                "Choose the chapter you will begin the game on. Must be earlier than the goal chapter.",
+                "To play a single chapter, set this and the goal to the same chapter.",
+                "I cannot currently fix it if you set this after the goal, so generation will fail if you do!"
+            ],
+            "values": {
+                "Chapter 1": 0,
+                "Chapter 2": 1,
+                "Chapter 3": 2,
+                "Chapter 4": 3
+            },
+            "default": 0,
+            "allow_custom_value": false
+        },
         "character_class": {
             "type": "Choice",
             "description": [
