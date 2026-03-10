@@ -153,6 +153,26 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    #Give the player a starting chapter based on their yaml option
+    #First validate starting chapter
+    start_chapter = world.options.starting_chapter.value
+    if start_chapter > world.options.goal.value:
+        start_chapter = world.options.goal.value
+
+    #Then use that value to give the corresponding chapter item, defaulting to 1
+    start_item_name = "Chapter 1"
+    if start_chapter == 1:
+        start_item_name = "Chapter 2"
+    if start_chapter == 2:
+        start_item_name = "Chapter 3"
+    if start_chapter == 3:
+        start_item_name = "Chapter 4"
+
+    for i in item_pool:
+        if i.player == player and i.name == start_item_name:
+            multiworld.push_precollected(i)
+            item_pool.remove(i)
+
     # Use this hook to remove items from the item pool
     itemNamesToRemove: list[str] = [] # List of item names
 
