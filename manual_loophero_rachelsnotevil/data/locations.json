@@ -449,7 +449,7 @@
       "Tile",
       "Manifestation"
     ],
-    "requires": "{ItemValue(loops:5)} AND |@Equip Slots:1| AND (|Chapter 1| OR |Chapter 4|)"
+    "requires": "({ItemValue(loops:5)} AND |Chapter 4| AND |@Equip Slots:1) OR ({ItemValue(loops:9)} AND |Chapter 1| AND |@Equip Slots:2|)"
   },
   {
     "name": "Place Arsenal",
