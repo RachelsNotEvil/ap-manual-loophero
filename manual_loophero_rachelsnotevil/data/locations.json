@@ -14,7 +14,7 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:9)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:9)} AND |Chapter 1|"
   },
   {
     "name": "Kill Priestess (Chapter 2)",
@@ -23,7 +23,7 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:11)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:11)} AND |Chapter 2|"
   },
   {
     "name": "Kill Hunter and Hounds (Chapter 3)",
@@ -32,7 +32,7 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:14)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:14)} AND |Chapter 3|"
   },
   {
     "name": "Kill Omega (Chapter 4)",
@@ -41,7 +41,7 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:12)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:12)} AND |Chapter 4|"
   },
   {
     "name": "Place Cemetery",
@@ -449,7 +449,7 @@
       "Tile",
       "Manifestation"
     ],
-    "requires": "{ItemValue(loops:5)} AND |@Equip Slots:1|"
+    "requires": "{ItemValue(loops:5)} AND |@Equip Slots:1| AND (|Chapter 1| OR |Chapter 4|)"
   },
   {
     "name": "Place Arsenal",
@@ -516,14 +516,14 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Cemetery| AND {ItemValue(loops:2)}"
+    "requires": "|Cemetery| AND {ItemValue(loops:2)} AND (|Chapter 3| OR |Chapter 4|)"
   },
   {
     "name": "Kill Cracked Skeleton",
     "category": [
       "Enemies"
     ],
-    "requires": "|Cemetery| AND {ItemValue(loops:2)}"
+    "requires": "|Cemetery| AND {ItemValue(loops:2)} AND (|Chapter 2| OR |Chapter 3| OR |Chapter 4|)"
   },
   {
     "name": "Kill Chest",
@@ -589,7 +589,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Vampire Mansion| AND |@Equip Slots:1|"
+    "requires": "|Vampire Mansion| AND |@Equip Slots:1| AND (|Chapter 2| OR |Chapter 3| OR |Chapter 4|)"
   },
   {
     "name": "Defeat Watcher",
@@ -697,7 +697,7 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
+    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1| AND |Chapter 4|"
   },
   {
     "name": "Kill Scarecrow",
@@ -746,7 +746,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
+    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2| AND |Chapter 4|"
   },
   {
     "name": "Kill Wooden Warrior",
@@ -769,7 +769,7 @@
       "Enemies",
       "Boss"
     ],
-    "requires": "|@Equip Slots:3| AND {ItemValue(loops:4)}"
+    "requires": "|@Equip Slots:3| AND {ItemValue(loops:4)} AND |Chapter 4|"
   },
   {
     "name": "Kill Priestess (Chapter 4)",
@@ -777,7 +777,7 @@
       "Enemies",
       "Boss"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:6)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:6)} AND |Chapter 4|"
   },
   {
     "name": "Kill Hunter (Chapter 4)",
@@ -785,7 +785,7 @@
       "Enemies",
       "Boss"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)} AND |Chapter 4|"
   },
   {
     "name": "Kill Hunter's Hound (Chapter 4)",
@@ -793,7 +793,7 @@
       "Enemies",
       "Boss"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)}"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)} AND |Chapter 4|"
   },
   {
     "name": "Learn Card-Sharp",
@@ -1073,7 +1073,7 @@
     "category": [
       "Tasks"
     ],
-    "requires": "|Wheat Fields| AND |Village| AND {ItemValue(loops:3)}"
+    "requires": "|Wheat Fields| AND |Village| AND {ItemValue(loops:3)} AND (|Chapter 3| OR |Chapter 4|)"
   },
   {
     "name": "Start the Day in a Swamp",
