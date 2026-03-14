@@ -100,11 +100,11 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     if start_chapter > 0 and goal_chapter < 4:
         locationNamesToRemove.append("Manifest Lich's Palace")
 
-    if !(start_chapter <= 0 and goal_chapter > 0):
+    if not (start_chapter <= 0 and goal_chapter > 0):
         locationNamesToRemove.append("Kill Lich (Complete Chapter 1)")
-    if !(start_chapter <= 1 and goal_chapter > 1)
+    if not (start_chapter <= 1 and goal_chapter > 1)
         locationNamesToRemove.append("Kill Priestess (Complete Chapter 2)")
-    if !(start_chapter <= 2 and goal_chapter > 2)
+    if not (start_chapter <= 2 and goal_chapter > 2)
         locationNamesToRemove.append("Kill Hunter and Hounds (Complete Chapter 3)")
 
     for region in multiworld.regions:
