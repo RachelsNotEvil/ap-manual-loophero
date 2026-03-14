@@ -17,6 +17,15 @@
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:9)} AND |Chapter 1|"
   },
   {
+    "name": "Kill Lich (Complete Chapter 1)",
+    "category": [
+      "Boss",
+      "Enemies"
+    ],
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:9)} AND |Chapter 1|",
+    "place_item": ["Chapter 2"]
+  },
+  {
     "name": "Kill Priestess (Chapter 2)",
     "victory": true,
     "category": [
@@ -26,6 +35,15 @@
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:11)} AND |Chapter 2|"
   },
   {
+    "name": "Kill Priestess (Complete Chapter 2)",
+    "category": [
+      "Boss",
+      "Enemies"
+    ],
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:11)} AND |Chapter 2|",
+    "place_item": ["Chapter 3"]
+  },
+  {
     "name": "Kill Hunter and Hounds (Chapter 3)",
     "victory": true,
     "category": [
@@ -33,6 +51,15 @@
       "Enemies"
     ],
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:14)} AND |Chapter 3|"
+  },
+  {
+    "name": "Kill Hunter and Hounds (Complete Chapter 3)",
+    "category": [
+      "Boss",
+      "Enemies"
+    ],
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:14)} AND |Chapter 3|",
+    "place_item": ["Chapter 4"]
   },
   {
     "name": "Kill Omega (Chapter 4)",
