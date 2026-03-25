@@ -74,6 +74,10 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     else:
         locationNamesToRemove.append("Get Shot At by an Outpost")
 
+    start_chapter = get_option_value(multiworld, player, "starting_chapter")
+    goal_chapter = get_option_value(multiworld, player, "goal")
+    if start_chapter > goal_chapter
+        start_chapter = goal_chapter
     if goal_chapter < 3:
         locationNamesToRemove.append("Kill Lich (Chapter 4)")
         locationNamesToRemove.append("Kill Priestess (Chapter 4)")
@@ -134,6 +138,8 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
     start_chapter = get_option_value(multiworld, player, "starting_chapter")
     goal_chapter = get_option_value(multiworld, player, "goal")
+    if start_chapter > goal_chapter
+        start_chapter = goal_chapter
     if goal_chapter < 3:
         item_config.pop("Chapter 4")
     if goal_chapter < 2 or start_chapter > 2:
@@ -152,9 +158,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     #Give the player a starting chapter based on their yaml option
     #First validate starting chapter
-    start_chapter = world.options.starting_chapter.value
-    if start_chapter > world.options.goal.value:
-        start_chapter = world.options.goal.value
+    start_chapter = get_option_value(multiworld, player, "starting_chapter")
+    goal_chapter = get_option_value(multiworld, player, "goal")
+    if start_chapter > goal_chapter
+        start_chapter = goal_chapter
 
     #Then use that value to give the corresponding chapter item, defaulting to 1
     start_item_name = "Chapter 1"
