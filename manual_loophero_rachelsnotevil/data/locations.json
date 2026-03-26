@@ -404,7 +404,7 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Forest| AND |Storm Temple| AND {ItemValue(loops:2)}"
+    "requires": "|Forest| AND |Storm Temple|"
   },
   {
     "name": "Transform Maquis",
@@ -452,7 +452,7 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Storm Temple| AND {ItemValue(loops:2)}"
+    "requires": "|Storm Temple|"
   },
   {
     "name": "Place Beacon",
@@ -759,7 +759,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|River| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+    "requires": "|River| AND {ItemValue(loops:3)} AND |@Equip Slots:1|"
   },
   {
     "name": "Kill Siren",
