@@ -5,7 +5,8 @@
       "Tile",
       "Manifestation"
     ],
-    "requires": ""
+    "requires": "",
+    "sort-key": "01Tile-01Road-02Manifest-Wasteland"
   },
   {
     "name": "Kill Lich (Chapter 1)",
@@ -14,7 +15,8 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:9)} AND |Chapter 1|"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:9)} AND |Chapter 1|",
+    "sort-key": "05Boss-03Victory-1"
   },
   {
     "name": "Kill Lich (Complete Chapter 1)",
@@ -23,7 +25,8 @@
       "Enemies"
     ],
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:9)} AND |Chapter 1|",
-    "place_item": ["Chapter 2"]
+    "place_item": ["Chapter 2"],
+    "sort-key": "05Boss-01Chapter-1"
   },
   {
     "name": "Kill Priestess (Chapter 2)",
@@ -32,7 +35,8 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:11)} AND |Chapter 2|"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:11)} AND |Chapter 2|",
+    "sort-key": "05Boss-03Victory-2"
   },
   {
     "name": "Kill Priestess (Complete Chapter 2)",
@@ -41,7 +45,8 @@
       "Enemies"
     ],
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:11)} AND |Chapter 2|",
-    "place_item": ["Chapter 3"]
+    "place_item": ["Chapter 3"],
+    "sort-key": "05Boss-01Chapter-2"
   },
   {
     "name": "Kill Hunter and Hounds (Chapter 3)",
@@ -50,7 +55,8 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:14)} AND |Chapter 3|"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:14)} AND |Chapter 3|",
+    "sort-key": "05Boss-03Victory-3"
   },
   {
     "name": "Kill Hunter and Hounds (Complete Chapter 3)",
@@ -59,7 +65,8 @@
       "Enemies"
     ],
     "requires": "|@Equip Slots:4| AND {ItemValue(loops:14)} AND |Chapter 3|",
-    "place_item": ["Chapter 4"]
+    "place_item": ["Chapter 4"],
+    "sort-key": "05Boss-01Chapter-3"
   },
   {
     "name": "Kill Omega (Chapter 4)",
@@ -68,7 +75,8 @@
       "Boss",
       "Enemies"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:12)} AND |Chapter 4|"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:12)} AND |Chapter 4|",
+    "sort-key": "05Boss-03Victory-4"
   },
   {
     "name": "Place Cemetery",
@@ -76,7 +84,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Cemetery|"
+    "requires": "|Cemetery|",
+    "sort-key": "01Tile-01Road-01Place-Cemetery"
   },
   {
     "name": "Place Grove",
@@ -84,7 +93,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Grove|"
+    "requires": "|Grove|",
+    "sort-key": "01Tile-01Road-01Place-Grove"
   },
   {
     "name": "Transform Blood Path",
@@ -92,7 +102,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Battle Field| AND {ItemValue(loops:2)}"
+    "requires": "|Battle Field| AND {ItemValue(loops:2)}",
+    "sort-key": "01Tile-01Road-03Transform-Blood Path"
   },
   {
     "name": "Place Village",
@@ -100,7 +111,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Village|"
+    "requires": "|Village|",
+    "sort-key": "01Tile-01Road-01Place-Village"
   },
   {
     "name": "Transform Ransacked Village",
@@ -108,7 +120,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Village| AND |Vampire Mansion|"
+    "requires": "|Village| AND |Vampire Mansion|",
+    "sort-key": "01Tile-01Road-02Transform-Ransacked Village"
   },
   {
     "name": "Transform Count's Lands",
@@ -116,7 +129,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Village| AND |Vampire Mansion| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+    "requires": "|Village| AND |Vampire Mansion| AND {ItemValue(loops:4)} AND |@Equip Slots:1|",
+    "sort-key": "01Tile-01Road-02Transform-Count's Lands"
   },
   {
     "name": "Place Wheat Fields",
@@ -124,7 +138,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Wheat Fields| AND |Village|"
+    "requires": "|Wheat Fields| AND |Village|",
+    "sort-key": "01Tile-01Road-01Place-Wheat Fields"
   },
   {
     "name": "Transform Overgrown Field",
@@ -132,7 +147,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Wheat Fields| AND |Village| AND (|Oblivion| OR (|Forest| AND {ItemValue(loops:4)} AND |@Equip Slots:1|))"
+    "requires": "|Wheat Fields| AND |Village| AND (|Oblivion| OR (|Forest| AND {ItemValue(loops:4)} AND |@Equip Slots:1|))",
+    "sort-key": "01Tile-01Road-02Transform-Overgrown Field"
   },
   {
     "name": "Place Ruins",
@@ -140,7 +156,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Ruins|"
+    "requires": "|Ruins|",
+    "sort-key": "01Tile-01Road-01Place-Ruins"
   },
   {
     "name": "Place Swamp",
@@ -148,7 +165,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Swamp|"
+    "requires": "|Swamp|",
+    "sort-key": "01Tile-01Road-01Place-Swamp"
   },
   {
     "name": "Manifest A Village?",
@@ -156,7 +174,8 @@
       "Tile",
       "Manifestation"
     ],
-    "requires": "|Forest| AND {ItemValue(loops:3)}"
+    "requires": "|Forest| AND {ItemValue(loops:3)}",
+    "sort-key": "01Tile-01Road-03Manifest-A Village?"
   },
   {
     "name": "Transform Bridge",
@@ -164,7 +183,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|River| and {ItemValue(loops:2)}"
+    "requires": "|River| and {ItemValue(loops:2)}",
+    "sort-key": "01Tile-01Road-02Transform-Bridge"
   },
   {
     "name": "Place Spider Cocoon",
@@ -172,7 +192,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Spider Cocoon|"
+    "requires": "|Spider Cocoon|",
+    "sort-key": "01Tile-02Roadside-01Place-Spider Cocoon"
   },
   {
     "name": "Place Vampire Mansion",
@@ -180,7 +201,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Vampire Mansion|"
+    "requires": "|Vampire Mansion|",
+    "sort-key": "01Tile-02Roadside-01Place-Vampire Mansion"
   },
   {
     "name": "Place Battle Field",
@@ -188,7 +210,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Battle Field|"
+    "requires": "|Battle Field|",
+    "sort-key": "01Tile-02Roadside-01Place-Battle Field"
   },
   {
     "name": "Transform Shipwreck",
@@ -196,7 +219,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:3)}"
+    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:3)}",
+    "sort-key": "01Tile-02Roadside-02Transform-Shipwreck"
   },
   {
     "name": "Place Road Lantern",
@@ -204,7 +228,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Road Lantern|"
+    "requires": "|Road Lantern|",
+    "sort-key": "01Tile-02Roadside-01Place-Road Lantern"
   },
   {
     "name": "Manifest Goblin Camp",
@@ -212,7 +237,8 @@
       "Tile",
       "Manifestation"
     ],
-    "requires": "|Rock| AND {ItemValue(loops:4)}"
+    "requires": "|Rock| AND {ItemValue(loops:4)}",
+    "sort-key": "01Tile-02Roadside-03Manifest-Goblin Camp"
   },
   {
     "name": "Transform Goblin Lookout",
@@ -220,7 +246,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Rock| AND |Swamp| AND {ItemValue(loops:5)}"
+    "requires": "|Rock| AND |Swamp| AND {ItemValue(loops:5)}",
+    "sort-key": "01Tile-02Roadside-02Transform-Goblin Lookout"
   },
   {
     "name": "Place Witch Hut",
@@ -228,7 +255,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:3)}"
+    "requires": "|Swamp| AND {ItemValue(loops:3)}",
+    "sort-key": "01Tile-02Roadside-01Place-Witch Hut"
   },
   {
     "name": "Place Bookery",
@@ -236,7 +264,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Bookery|"
+    "requires": "|Bookery|",
+    "sort-key": "01Tile-02Roadside-01Place-Bookery"
   },
   {
     "name": "Transform Abandoned Bookery",
@@ -244,7 +273,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Bookery| AND {ItemValue(loops:5)} AND |@Equip Slots:1|"
+    "requires": "|Bookery| AND {ItemValue(loops:5)} AND |@Equip Slots:1|",
+    "sort-key": "01Tile-02Roadside-02Transform-Abandoned Bookery"
   },
   {
     "name": "Place Blood Grove",
@@ -252,7 +282,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Blood Grove| AND (|Forest| OR |Grove|)"
+    "requires": "|Blood Grove| AND (|Forest| OR |Grove|)",
+    "sort-key": "01Tile-02Roadside-01Place-Blood Grove"
   },
   {
     "name": "Transform Hungry Grove",
@@ -260,7 +291,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Blood Grove| AND ((|Oblivion| AND (|Forest| OR |Grove|)) OR (|Forest| AND |Storm Temple|))"
+    "requires": "|Blood Grove| AND ((|Oblivion| AND (|Forest| OR |Grove|)) OR (|Forest| AND |Storm Temple|))",
+    "sort-key": "01Tile-02Roadside-02Transform-Hungry Grove"
   },
   {
     "name": "Manifest Bandit Camp",
@@ -268,7 +300,8 @@
       "Tile",
       "Manifestation"
     ],
-    "requires": "|Village| AND {ItemValue(loops:3)}"
+    "requires": "|Village| AND {ItemValue(loops:3)}",
+    "sort-key": "01Tile-02Roadside-03Manifest-Bandit Camp"
   },
   {
     "name": "Transform Reed",
@@ -276,7 +309,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|River| AND {ItemValue(loops:3)}"
+    "requires": "|River| AND {ItemValue(loops:3)}",
+    "sort-key": "01Tile-02Roadside-02Transform-Reed"
   },
   {
     "name": "Place Outpost",
@@ -284,7 +318,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Outpost|"
+    "requires": "|Outpost|",
+    "sort-key": "01Tile-02Roadside-01Place-Outpost"
   },
   {
     "name": "Place Smith's Forge",
@@ -292,7 +327,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Smith's Forge|"
+    "requires": "|Smith's Forge|",
+    "sort-key": "01Tile-02Roadside-01Place-Smith's Forge"
   },
   {
     "name": "Place Chrono Crystals",
@@ -300,7 +336,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Chrono Crystals|"
+    "requires": "|Chrono Crystals|",
+    "sort-key": "01Tile-02Roadside-01Place-Chrono Crystals"
   },
   {
     "name": "Place Rock",
@@ -308,7 +345,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Rock|"
+    "requires": "|Rock|",
+    "sort-key": "01Tile-03Terrain-01Place-Rock"
   },
   {
     "name": "Place Mountain",
@@ -316,7 +354,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Rock|"
+    "requires": "|Rock|",
+    "sort-key": "01Tile-03Terrain-01Place-Mountain"
   },
   {
     "name": "Transform Mountain Peak",
@@ -324,7 +363,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Rock| AND {ItemValue(loops:3)}"
+    "requires": "|Rock| AND {ItemValue(loops:3)}",
+    "sort-key": "01Tile-03Terrain-02Transform-Mountain Peak"
   },
   {
     "name": "Place Meadow",
@@ -332,7 +372,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Meadow|"
+    "requires": "|Meadow|",
+    "sort-key": "01Tile-03Terrain-01Place-Meadow"
   },
   {
     "name": "Transform Blooming Meadow",
@@ -340,7 +381,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Meadow|"
+    "requires": "|Meadow|",
+    "sort-key": "01Tile-03Terrain-02Transform-Blooming Meadow"
   },
   {
     "name": "Place Desert",
@@ -348,7 +390,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Desert|"
+    "requires": "|Desert|",
+    "sort-key": "01Tile-03Terrain-01Place-Desert"
   },
   {
     "name": "Place Sand Dunes",
@@ -356,7 +399,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Desert|"
+    "requires": "|Desert|",
+    "sort-key": "01Tile-03Terrain-01Place-Sand Dunes"
   },
   {
     "name": "Manifest Ziggurat",
@@ -364,7 +408,8 @@
       "Tile",
       "Manifestation"
     ],
-    "requires": "|Desert| AND {ItemValue(loops:3)}"
+    "requires": "|Desert| AND {ItemValue(loops:3)}",
+    "sort-key": "01Tile-03Terrain-03Manifest-Ziggurat"
   },
   {
     "name": "Place River",
@@ -372,7 +417,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|River|"
+    "requires": "|River|",
+    "sort-key": "01Tile-03Terrain-01Place-River"
   },
   {
     "name": "Transform Oasis",
@@ -380,7 +426,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|River| AND |Desert|"
+    "requires": "|River| AND |Desert|",
+    "sort-key": "01Tile-03Terrain-02Transform-Oasis"
   },
   {
     "name": "Place Forest",
@@ -388,7 +435,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Forest|"
+    "requires": "|Forest|",
+    "sort-key": "01Tile-03Terrain-01Place-Forest"
   },
   {
     "name": "Place Thicket",
@@ -396,7 +444,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Forest|"
+    "requires": "|Forest|",
+    "sort-key": "01Tile-03Terrain-01Place-Thicket"
   },
   {
     "name": "Transform Burned Forest",
@@ -404,7 +453,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Forest| AND |Storm Temple|"
+    "requires": "|Forest| AND |Storm Temple|",
+    "sort-key": "01Tile-03Terrain-02Transform-Burned Forest"
   },
   {
     "name": "Transform Maquis",
@@ -412,7 +462,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Forest| AND |Desert|"
+    "requires": "|Forest| AND |Desert|",
+    "sort-key": "01Tile-03Terrain-02Transform-Maquis"
   },
   {
     "name": "Place Suburbs",
@@ -420,7 +471,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Suburbs|"
+    "requires": "|Suburbs|",
+    "sort-key": "01Tile-03Terrain-01Place-Suburbs"
   },
   {
     "name": "Transform Town",
@@ -428,7 +480,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Suburbs| AND {ItemValue(loops:3)}"
+    "requires": "|Suburbs| AND {ItemValue(loops:3)}",
+    "sort-key": "01Tile-03Terrain-02Transform-Town"
   },
   {
     "name": "Place Treasury",
@@ -436,7 +489,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Treasury|"
+    "requires": "|Treasury|",
+    "sort-key": "01Tile-04Special-01Place-Treasury"
   },
   {
     "name": "Transform Empty Treasury",
@@ -444,7 +498,8 @@
       "Tile",
       "Transformation"
     ],
-    "requires": "|Treasury| AND {ItemValue(loops:6)} AND |@Equip Slots:1|"
+    "requires": "|Treasury| AND {ItemValue(loops:6)} AND |@Equip Slots:1|",
+    "sort-key": "01Tile-04Special-02Transform-Empty Treasury"
   },
   {
     "name": "Place Storm Temple",
@@ -452,7 +507,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Storm Temple|"
+    "requires": "|Storm Temple|",
+    "sort-key": "01Tile-04Special-01Place-Storm Temple"
   },
   {
     "name": "Place Beacon",
@@ -460,7 +516,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Beacon|"
+    "requires": "|Beacon|",
+    "sort-key": "01Tile-04Special-01Place-Beacon"
   },
   {
     "name": "Place Temporal Beacon",
@@ -468,7 +525,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Temporal Beacon|"
+    "requires": "|Temporal Beacon|",
+    "sort-key": "01Tile-04Special-01Place-Temporal Beacon"
   },
   {
     "name": "Manifest Lich's Palace",
@@ -476,7 +534,8 @@
       "Tile",
       "Manifestation"
     ],
-    "requires": "({ItemValue(loops:5)} AND |Chapter 4| AND |@Equip Slots:1|) OR ({ItemValue(loops:9)} AND |Chapter 1| AND |@Equip Slots:2|)"
+    "requires": "({ItemValue(loops:5)} AND |Chapter 4| AND |@Equip Slots:1|) OR ({ItemValue(loops:9)} AND |Chapter 1| AND |@Equip Slots:2|)",
+    "sort-key": "01Tile-04Special-03Manifest-Lich's Palace"
   },
   {
     "name": "Place Arsenal",
@@ -484,7 +543,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Arsenal|"
+    "requires": "|Arsenal|",
+    "sort-key": "01Tile-05Gold-01Place-Arsenal"
   },
   {
     "name": "Place Ancestral Crypt",
@@ -492,7 +552,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Ancestral Crypt|"
+    "requires": "|Ancestral Crypt|",
+    "sort-key": "01Tile-05Gold-01Place-Ancestral Crypt"
   },
   {
     "name": "Place Maze of Memories",
@@ -500,7 +561,8 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Maze of Memories|"
+    "requires": "|Maze of Memories|",
+    "sort-key": "01Tile-05Gold-01Place-Maze of Memories"
   },
   {
     "name": "Place Zero Milestone",
@@ -508,70 +570,80 @@
       "Tile",
       "Placement"
     ],
-    "requires": "|Zero Milestone|"
+    "requires": "|Zero Milestone|",
+    "sort-key": "01Tile-05Gold-01Place-Zero Milestone"
   },
   {
     "name": "Kill Slime",
     "category": [
       "Enemies"
     ],
-    "requires": ""
+    "requires": "",
+    "sort-key": "02Fight-Slime"
   },
   {
     "name": "Kill Ratwolf",
     "category": [
       "Enemies"
     ],
-    "requires": "|Grove| AND {ItemValue(loops:2)}"
+    "requires": "|Grove| AND {ItemValue(loops:2)}",
+    "sort-key": "02Fight-Ratwolf"
   },
   {
     "name": "Kill Spider",
     "category": [
       "Enemies"
     ],
-    "requires": "|Spider Cocoon| AND {ItemValue(loops:2)}"
+    "requires": "|Spider Cocoon| AND {ItemValue(loops:2)}",
+    "sort-key": "02Fight-Spider"
   },
   {
     "name": "Kill Skeleton",
     "category": [
       "Enemies"
     ],
-    "requires": "|Cemetery| AND {ItemValue(loops:2)}"
+    "requires": "|Cemetery| AND {ItemValue(loops:2)}",
+    "sort-key": "02Fight-Skeleton"
   },
   {
     "name": "Kill Skeleton Archer",
     "category": [
       "Enemies"
     ],
-    "requires": "|Cemetery| AND {ItemValue(loops:2)} AND (|Chapter 3| OR |Chapter 4|)"
+    "requires": "|Cemetery| AND {ItemValue(loops:2)} AND (|Chapter 3| OR |Chapter 4|)",
+    "sort-key": "02Fight-Skeleton Archer"
   },
   {
     "name": "Kill Cracked Skeleton",
     "category": [
       "Enemies"
     ],
-    "requires": "|Cemetery| AND {ItemValue(loops:2)} AND (|Chapter 2| OR |Chapter 3| OR |Chapter 4|)"
+    "requires": "|Cemetery| AND {ItemValue(loops:2)} AND (|Chapter 2| OR |Chapter 3| OR |Chapter 4|)",
+    "sort-key": "02Fight-Cracked Skeleton"
   },
   {
     "name": "Kill Chest",
     "category": [
       "Enemies"
     ],
-    "requires": "|Battle Field| AND {ItemValue(loops:2)}"
+    "requires": "|Battle Field| AND {ItemValue(loops:2)}",
+    "sort-key": "02Fight-Chest"
   },
   {
     "name": "Kill Mimic",
     "category": [
       "Enemies"
     ],
-    "requires": "|Battle Field| AND {ItemValue(loops:2)}"
+    "requires": "|Battle Field| AND {ItemValue(loops:2)}",
+    "sort-key": "02Fight-Mimic"
   },
   {
     "name": "Kill Blood Clot",
     "category": [
       "Enemies"
     ],
-    "requires": "|Battle Field| AND {ItemValue(loops:3)} AND |@Equip Slots:1|"
+    "requires": "|Battle Field| AND {ItemValue(loops:3)} AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Blood Clot"
   },
   {
     "name": "Kill Ghost",
@@ -579,7 +651,8 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Battle Field| AND |@Equip Slots:1|"
+    "requires": "|Battle Field| AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Ghost"
   },
   {
     "name": "Kill Ghost of a Ghost",
@@ -587,7 +660,8 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Battle Field| AND |@Equip Slots:1|"
+    "requires": "|Battle Field| AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Ghost of a Ghost"
   },
   {
     "name": "Kill Prime Matter",
@@ -595,28 +669,32 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Battle Field| AND |@Equip Slots:2|"
+    "requires": "|Battle Field| AND |@Equip Slots:2|",
+    "sort-key": "02Fight-Prime Matter"
   },
   {
     "name": "Kill Vampire",
     "category": [
       "Enemies"
     ],
-    "requires": "|Vampire Mansion| AND |@Equip Slots:1|"
+    "requires": "|Vampire Mansion| AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Vampire"
   },
   {
     "name": "Kill Vampire Mage",
     "category": [
       "Enemies"
     ],
-    "requires": "|Vampire Mansion| AND |Bookery| AND |@Equip Slots:1| AND {ItemValue(loops:5)}"
+    "requires": "|Vampire Mansion| AND |Bookery| AND |@Equip Slots:1| AND {ItemValue(loops:5)}",
+    "sort-key": "02Fight-Vampire Mage"
   },
   {
     "name": "Kill Swarm of Bats",
     "category": [
       "Enemies"
     ],
-    "requires": "|Vampire Mansion| AND |@Equip Slots:1| AND (|Chapter 2| OR |Chapter 3| OR |Chapter 4|)"
+    "requires": "|Vampire Mansion| AND |@Equip Slots:1| AND (|Chapter 2| OR |Chapter 3| OR |Chapter 4|)",
+    "sort-key": "02Fight-Swarm of Bats"
   },
   {
     "name": "Defeat Watcher",
@@ -624,7 +702,8 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Temporal Beacon| AND {ItemValue(loops:3)} AND |@Equip Slots:1|"
+    "requires": "|Temporal Beacon| AND {ItemValue(loops:3)} AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Watcher"
   },
   {
     "name": "Kill Watcher Mage",
@@ -632,91 +711,104 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Temporal Beacon| AND |Bookery| AND |@Equip Slots:1| AND {ItemValue(loops:7)}"
+    "requires": "|Temporal Beacon| AND |Bookery| AND |@Equip Slots:1| AND {ItemValue(loops:7)}",
+    "sort-key": "02Fight-Watcher Mage"
   },
   {
     "name": "Kill Tome",
     "category": [
       "Enemies"
     ],
-    "requires": "|Bookery| AND {ItemValue(loops:7)} AND |@Equip Slots:1|"
+    "requires": "|Bookery| AND {ItemValue(loops:7)} AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Tome"
   },
   {
     "name": "Kill Goblin",
     "category": [
       "Enemies"
     ],
-    "requires": "|Rock| AND {ItemValue(loops:6)} AND |@Equip Slots:2|"
+    "requires": "|Rock| AND {ItemValue(loops:6)} AND |@Equip Slots:2|",
+    "sort-key": "02Fight-Goblin"
   },
   {
     "name": "Kill Goblin Leader",
     "category": [
       "Enemies"
     ],
-    "requires": "|Rock| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
+    "requires": "|Rock| AND {ItemValue(loops:5)} AND |@Equip Slots:2|",
+    "sort-key": "02Fight-Goblin Leader"
   },
   {
     "name": "Defeat Goblin Archer",
     "category": [
       "Enemies"
     ],
-    "requires": "|Rock| AND {ItemValue(loops:5)} AND |Swamp| AND |@Equip Slots:2|"
+    "requires": "|Rock| AND {ItemValue(loops:5)} AND |Swamp| AND |@Equip Slots:2|",
+    "sort-key": "02Fight-Goblin Archer"
   },
   {
     "name": "Kill Ghoul",
     "category": [
       "Enemies"
     ],
-    "requires": "|Village| AND |Vampire Mansion| AND |@Equip Slots:1| AND {ItemValue(loops:2)}"
+    "requires": "|Village| AND |Vampire Mansion| AND |@Equip Slots:1| AND {ItemValue(loops:2)}",
+    "sort-key": "02Fight-Ghoul"
   },
   {
     "name": "Kill Bandit",
     "category": [
       "Enemies"
     ],
-    "requires": "|Village| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
+    "requires": "|Village| AND {ItemValue(loops:2)} AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Bandit"
   },
   {
     "name": "Kill Harpy",
     "category": [
       "Enemies"
     ],
-    "requires": "|Rock| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
+    "requires": "|Rock| AND {ItemValue(loops:5)} AND |@Equip Slots:2|",
+    "sort-key": "02Fight-Harpy"
   },
   {
     "name": "Kill Gargoyle",
     "category": [
       "Enemies"
     ],
-    "requires": "|Treasury| AND {ItemValue(loops:8)} AND |@Equip Slots:2|"
+    "requires": "|Treasury| AND {ItemValue(loops:8)} AND |@Equip Slots:2|",
+    "sort-key": "02Fight-Gargoyle"
   },
   {
     "name": "Kill Flesh Golem",
     "category": [
       "Enemies"
     ],
-    "requires": "|Blood Grove| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+    "requires": "|Blood Grove| AND {ItemValue(loops:4)} AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Flesh Golem"
   },
   {
     "name": "Kill Living Armor",
     "category": [
       "Enemies"
     ],
-    "requires": "|Smith's Forge| AND {ItemValue(loops:5)} AND |@Equip Slots:1|"
+    "requires": "|Smith's Forge| AND {ItemValue(loops:5)} AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Living Armor"
   },
   {
     "name": "Kill Mosquito",
     "category": [
       "Enemies"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
+    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Mosquito"
   },
   {
     "name": "Defeat Witch",
     "category": [
       "Enemies"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|"
+    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Witch"
   },
   {
     "name": "Defeat Protective Totem",
@@ -724,63 +816,73 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1| AND |Chapter 4|"
+    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1| AND |Chapter 4|",
+    "sort-key": "02Fight-Protective Totem"
   },
   {
     "name": "Kill Scarecrow",
     "category": [
       "Enemies"
     ],
-    "requires": "|Wheat Fields| AND |Village| AND {ItemValue(loops:3)}"
+    "requires": "|Wheat Fields| AND |Village| AND {ItemValue(loops:3)}",
+    "sort-key": "02Fight-Scarecrow"
   },
   {
     "name": "Kill Field of Blades",
     "category": [
       "Enemies"
     ],
-    "requires": "|Wheat Fields| AND |Village| AND (|Oblivion| OR (|Forest| AND {ItemValue(loops:5)} AND |@Equip Slots:1|))"
+    "requires": "|Wheat Fields| AND |Village| AND (|Oblivion| OR (|Forest| AND {ItemValue(loops:5)} AND |@Equip Slots:1|))",
+    "sort-key": "02Fight-Field of Blades"
   },
   {
     "name": "Defeat Scorch Worm",
     "category": [
       "Enemies"
     ],
-    "requires": "|Ruins| AND |@Equip Slots:1|"
+    "requires": "|Ruins| AND |@Equip Slots:1|",
+    "sort-key": "02Fight-Scorch Worm"
   },
   {
     "name": "Kill Sand Spirit",
     "category": [
       "Enemies"
     ],
-    "requires": "|Desert| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
+    "requires": "|Desert| AND {ItemValue(loops:4)} AND |@Equip Slots:2|",
+    "sort-key": "02Fight-Sand Spirit"
   },
   {
     "name": "Kill Fishman",
     "category": [
       "Enemies"
     ],
-    "requires": "|River| AND {ItemValue(loops:3)} AND |@Equip Slots:1|"
+    "requires": "|River| AND {ItemValue(loops:3)} AND |@Equip Slots:1|",
+
+    "sort-key": "02Fight-Fishman"
   },
   {
     "name": "Kill Siren",
     "category": [
       "Enemies"
     ],
-    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2|"
+    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2|",
+    "sort-key": "02Fight-Siren"
   },
   {
     "name": "Kill Jellyfish",
     "category": [
       "Enemies"
     ],
-    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2| AND |Chapter 4|"
+    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2| AND |Chapter 4|",
+    "sort-key": "02Fight-Jellyfish"
   },
   {
     "name": "Kill Wooden Warrior",
     "category": [
       "Enemies"
     ],
-    "requires": "|Forest| AND {ItemValue(loops:4)} AND |@Equip Slots:2|"
+    "requires": "|Forest| AND {ItemValue(loops:4)} AND |@Equip Slots:2|",
+    "sort-key": "02Fight-Wooden Warrior"
   },
   {
     "name": "Kill Dark Slime",
@@ -788,7 +890,8 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Oblivion| AND |@Equip Slots:2|"
+    "requires": "|Oblivion| AND |@Equip Slots:2|",
+    "sort-key": "02Fight-Dark Slime"
   },
   {
     "name": "Kill Lich (Chapter 4)",
@@ -796,7 +899,8 @@
       "Enemies",
       "Boss"
     ],
-    "requires": "|@Equip Slots:3| AND {ItemValue(loops:4)} AND |Chapter 4|"
+    "requires": "|@Equip Slots:3| AND {ItemValue(loops:4)} AND |Chapter 4|",
+    "sort-key": "05Boss-02Refight-1"
   },
   {
     "name": "Kill Priestess (Chapter 4)",
@@ -804,7 +908,8 @@
       "Enemies",
       "Boss"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:6)} AND |Chapter 4|"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:6)} AND |Chapter 4|",
+    "sort-key": "05Boss-02Refight-2"
   },
   {
     "name": "Kill Hunter (Chapter 4)",
@@ -812,7 +917,8 @@
       "Enemies",
       "Boss"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)} AND |Chapter 4|"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)} AND |Chapter 4|",
+    "sort-key": "05Boss-02Refight-3"
   },
   {
     "name": "Kill Hunter's Hound (Chapter 4)",
@@ -820,307 +926,351 @@
       "Enemies",
       "Boss"
     ],
-    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)} AND |Chapter 4|"
+    "requires": "|@Equip Slots:4| AND {ItemValue(loops:10)} AND |Chapter 4|",
+    "sort-key": "05Boss-02Refight-3a"
   },
   {
     "name": "Learn Card-Sharp",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Card-Sharp"
   },
   {
     "name": "Learn Surveyor",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Surveyor"
   },
   {
     "name": "Learn Second Thoughts",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Second Thoughts"
   },
   {
     "name": "Learn Supplies",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Supplies"
   },
   {
     "name": "Learn Blissful Ignorance",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Blissful Ignorance"
   },
   {
     "name": "Learn Deep Pockets",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Deep Pockets"
   },
   {
     "name": "Learn Axis Tilt",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Axis Tilt"
   },
   {
     "name": "Learn Omicron's Technique",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Omicron's Technique"
   },
   {
     "name": "Learn Awakened Fragment",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Awakened Fragment"
   },
   {
     "name": "Learn Treasure Hunter",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Treasure Hunter"
   },
   {
     "name": "Learn Gift of Blood",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Gift of Blood"
   },
   {
     "name": "Learn Post-Mortem Toll",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Post-Mortem Toll"
   },
   {
     "name": "Learn Skilled Architect",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Skilled Architect"
   },
   {
     "name": "Learn God's Eye",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-God's Eye"
   },
   {
     "name": "Learn Shield of Faith",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Shielf of Faith"
   },
   {
     "name": "Learn Their Own Peril",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Their Own Peril"
   },
   {
     "name": "Learn Bottomless Bottle",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Bottomless Bottle"
   },
   {
     "name": "Learn Blind Rage",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Blind Rage"
   },
   {
     "name": "Learn Lightning Fast",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Lightning Fast"
   },
   {
     "name": "Learn Hunter's Mark",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Hunter's Mark"
   },
   {
     "name": "Learn Shield-Master/Fuss/Edge of Impossible",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Shield-Master/Fuss/Edge of Impossible"
   },
   {
     "name": "Learn Skilled Armorer/Smoke Screen/Field Practice",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Skilled Armorer"
   },
   {
     "name": "Learn Buckler/Pickpocket/Art of Control",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Buckler"
   },
   {
     "name": "Learn Article of Protection/Picky/Residual Heat",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Article of Protection"
   },
   {
     "name": "Learn Blade of Dawn/Marauder/Ambitions of the Dead",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Blade of Dawn"
   },
   {
     "name": "Learn Somersault/Child of the Forest/Counterattack",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Somersault"
   },
   {
     "name": "Learn Strong Aftertaste/Old Scars/Preparation for a Ceremony",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Strong Aftertaste"
   },
   {
     "name": "Learn Dominant Mass/Lethal Weakness/Unseen Care",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Dominant Mass"
   },
   {
     "name": "Learn Battering Ram/Nothing is Sacred/Horde",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Battering Ram"
   },
   {
     "name": "Learn Survivalist/Master of Fencing/Laying Down One's Life",
     "category": [
       "Level"
     ],
-    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)"
+    "requires": "(|@Equip Slots:1| AND {ItemValue(loops:6)}) OR ({ItemValue(loops:3)} AND |Suburbs|)",
+    "sort-key": "03Level-Survivalist"
   },
   {
     "name": "Turn In Quest to Village or Count's Lands",
     "category": [
       "Tasks"
     ],
-    "requires": "|Village| AND {ItemValue(loops:3)} AND |@Equip Slots:1|"
+    "requires": "|Village| AND {ItemValue(loops:3)} AND |@Equip Slots:1|",
+    "sort-key": "04Task-Turn In Quest"
   },
   {
     "name": "Destroy a Tile with Oblivion",
     "category": [
       "Tasks"
     ],
-    "requires": "|Oblivion|"
+    "requires": "|Oblivion|",
+    "sort-key": "04Task-Destroy a Tile"
   },
   {
     "name": "Trade Cards at Bookery",
     "category": [
       "Tasks"
     ],
-    "requires": "|Bookery|"
+    "requires": "|Bookery|",
+    "sort-key": "04Task-Trade Cards"
   },
   {
     "name": "Get a Potion from a Witch",
     "category": [
       "Tasks"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:4)} AND |@Equip Slots:1|"
+    "requires": "|Swamp| AND {ItemValue(loops:4)} AND |@Equip Slots:1|",
+    "sort-key": "04Task-Get a Potion"
   },
   {
     "name": "Trade In Equipment at a Smith's Forge",
     "category": [
       "Tasks"
     ],
-    "requires": "|Smith's Forge| AND {ItemValue(loops:2)}"
+    "requires": "|Smith's Forge| AND {ItemValue(loops:2)}",
+    "sort-key": "04Task-Trade In Equipment"
   },
   {
     "name": "Fight with Help from an Outpost",
     "category": [
       "Tasks"
     ],
-    "requires": "|Outpost| AND {ItemValue(loops:3)}"
+    "requires": "|Outpost| AND {ItemValue(loops:3)}",
+    "sort-key": "04Task-Fight with Help"
   },
   {
     "name": "Get Shot At by an Outpost",
     "category": [
       "Tasks"
     ],
-    "requires": "|Outpost| AND {ItemValue(loops:3)}"
+    "requires": "|Outpost| AND {ItemValue(loops:3)}",
+    "sort-key": "04Task-Get Shot At"
   },
   {
     "name": "See or Get Struck By Lightning",
     "category": [
       "Tasks"
     ],
-    "requires": "|Storm Temple| AND {ItemValue(loops:2)}"
+    "requires": "|Storm Temple| AND {ItemValue(loops:2)}",
+    "sort-key": "04Task-See or Get Struck"
   },
   {
     "name": "Feed an Enemy to a Blood Grove",
     "category": [
       "Tasks"
     ],
-    "requires": "|Blood Grove| AND (|Forest| OR |Grove|) AND {ItemValue(loops:2)}"
+    "requires": "|Blood Grove| AND (|Forest| OR |Grove|) AND {ItemValue(loops:2)}",
+    "sort-key": "04Task-Feed an Enemy"
   },
   {
     "name": "Scare an Enemy with a Scarecrow",
     "category": [
       "Tasks"
     ],
-    "requires": "|Wheat Fields| AND |Village| AND {ItemValue(loops:3)} AND (|Chapter 3| OR |Chapter 4|)"
+    "requires": "|Wheat Fields| AND |Village| AND {ItemValue(loops:3)} AND (|Chapter 3| OR |Chapter 4|)",
+    "sort-key": "04Task-Scare an Enemy"
   },
   {
     "name": "Start the Day in a Swamp",
     "category": [
       "Tasks"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:3)}"
+    "requires": "|Swamp| AND {ItemValue(loops:3)}",
+    "sort-key": "04Task-Start the Day"
   },
   {
     "name": "Get an Orb of Expansion",
     "category": [
       "Tasks"
     ],
-    "requires": "|Vampire Mansion| AND (|Spider Cocoon| OR |Village|) AND {ItemValue(loops:3)}"
+    "requires": "|Vampire Mansion| AND (|Spider Cocoon| OR |Village|) AND {ItemValue(loops:3)}",
+    "sort-key": "04Task-Get an Orb"
   },
   {
     "name": "Gain a Level",
     "category": [
       "Tasks"
     ],
-    "requires": "({ItemValue(loops:3)} AND |Suburbs|) OR ({ItemValue(loops:6)} AND |@Equip Slots:1|)"
+    "requires": "({ItemValue(loops:3)} AND |Suburbs|) OR ({ItemValue(loops:6)} AND |@Equip Slots:1|)",
+    "sort-key": "04Task-Gain a Level"
   }
 ]
