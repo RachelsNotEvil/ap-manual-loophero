@@ -1051,7 +1051,7 @@
     "category": [
       "Tasks"
     ],
-    "requires": "|Bookery| AND {ItemValue(loops:2)}"
+    "requires": "|Bookery|"
   },
   {
     "name": "Get a Potion from a Witch",
