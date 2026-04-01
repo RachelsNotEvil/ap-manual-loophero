@@ -58,7 +58,7 @@ These are various interactions with the unique mechanics of a tile that didn't f
 This is a subset of the "Enemies" category that includes only the 4 bosses. This may include copies of the bosses if you're playing chapter 4.
 
 ### Tile
-This is a catch-all category that combines Placement, Transformation, and Manifestation locations.
+This is a catch-all category that combines Placement, Transformation, and Manifestation locations. These are sorted by tile category, and within each category, they are sorted by road/roadside/landscape/special/gold, as indicated by the game's encyclopedia. Note that this means that Reed is a Roadside tile, despite transforming from a Landscape tile.
 
 ## General Tips
 Don't forget to claim your "manifest wasteland" at the start of your first run! I sometimes forget "Kill Slime" as well. These are basically free checks right at the start.
