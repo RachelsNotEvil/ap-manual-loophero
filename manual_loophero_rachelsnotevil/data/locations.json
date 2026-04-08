@@ -642,7 +642,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Battle Field| AND {ItemValue(loops:3)} AND |@Equip Slots:1|",
+    "requires": "|Battle Field| AND {ItemValue(loops:4)} AND |@Equip Slots:1|",
     "sort-key": "02Fight-Blood Clot"
   },
   {
@@ -651,7 +651,7 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Battle Field| AND |@Equip Slots:1|",
+    "requires": "|Battle Field|",
     "sort-key": "02Fight-Ghost"
   },
   {
@@ -660,7 +660,7 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Battle Field| AND |@Equip Slots:1|",
+    "requires": "|Battle Field|",
     "sort-key": "02Fight-Ghost of a Ghost"
   },
   {
@@ -669,7 +669,7 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Battle Field| AND |@Equip Slots:2|",
+    "requires": "|Battle Field|",
     "sort-key": "02Fight-Prime Matter"
   },
   {
@@ -693,7 +693,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Vampire Mansion| AND |@Equip Slots:1| AND (|Chapter 2| OR |Chapter 3| OR |Chapter 4|)",
+    "requires": "|Vampire Mansion| AND (|Chapter 2| OR |Chapter 3| OR |Chapter 4|)",
     "sort-key": "02Fight-Swarm of Bats"
   },
   {
@@ -751,7 +751,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Village| AND |Vampire Mansion| AND |@Equip Slots:1| AND {ItemValue(loops:2)}",
+    "requires": "|Village| AND |Vampire Mansion| AND {ItemValue(loops:2)}",
     "sort-key": "02Fight-Ghoul"
   },
   {
@@ -799,7 +799,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|",
+    "requires": "|Swamp| AND {ItemValue(loops:2)}",
     "sort-key": "02Fight-Mosquito"
   },
   {
@@ -807,7 +807,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1|",
+    "requires": "|Swamp| AND {ItemValue(loops:3)}",
     "sort-key": "02Fight-Witch"
   },
   {
@@ -816,7 +816,7 @@
       "Enemies",
       "Optional"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:2)} AND |@Equip Slots:1| AND |Chapter 4|",
+    "requires": "|Swamp| AND {ItemValue(loops:3)} AND |Chapter 4|",
     "sort-key": "02Fight-Protective Totem"
   },
   {
@@ -840,7 +840,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Ruins| AND |@Equip Slots:1|",
+    "requires": "|Ruins|",
     "sort-key": "02Fight-Scorch Worm"
   },
   {
@@ -856,7 +856,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|River| AND {ItemValue(loops:3)} AND |@Equip Slots:1|",
+    "requires": "|River| AND {ItemValue(loops:3)}",
 
     "sort-key": "02Fight-Fishman"
   },
@@ -865,7 +865,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2|",
+    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:1|",
     "sort-key": "02Fight-Siren"
   },
   {
@@ -873,7 +873,7 @@
     "category": [
       "Enemies"
     ],
-    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:2| AND |Chapter 4|",
+    "requires": "|Battle Field| AND |River| AND {ItemValue(loops:5)} AND |@Equip Slots:1| AND |Chapter 4|",
     "sort-key": "02Fight-Jellyfish"
   },
   {
@@ -1198,7 +1198,7 @@
     "category": [
       "Tasks"
     ],
-    "requires": "|Swamp| AND {ItemValue(loops:4)} AND |@Equip Slots:1|",
+    "requires": "|Swamp| AND {ItemValue(loops:3)}",
     "sort-key": "04Task-Get a Potion"
   },
   {
